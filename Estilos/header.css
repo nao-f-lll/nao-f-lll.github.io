@@ -1,0 +1,224 @@
+.header-container,
+.nav-list,
+.nav-element {
+  display: flex;
+}
+
+.world-rugby-logo,
+.search-button,
+.sign-in-button,
+.language-button,
+.close-menu-icon,
+.list-menu-icon {
+  cursor: pointer;
+}
+
+.header-container {
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: flex-end;
+}
+
+.header-left-section {
+  margin-left: 2rem;
+  flex: 0.2;
+}
+
+.world-rugby-logo {
+  width: 50px;
+}
+
+.nav-list li a {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 15px;
+  position: relative;
+}
+
+.drop-menu-child {
+  padding-top: 3px;
+  position: absolute;
+  background-color: transparent;
+  display: none;
+  width: 112px;
+}
+.drop-menu-child li a {
+  background-color: #343a40;
+  font-size: 12px;
+}
+
+.drop-menu-child li:hover a {
+  color: #069be7;
+}
+
+.drop-menu-parent {
+  margin-right: 0.5px;
+}
+.drop-menu-parent:hover .drop-menu-child {
+  display: block;
+}
+
+.drop-menu-parent:hover .underline-secundario {
+  height: 4px;
+}
+
+.drop-menu-child li {
+  line-height: 30px;
+}
+
+.arrow_down_icon,
+.arrow_up_icon {
+  position: absolute;
+  width: 20px;
+  top: 0;
+  left: 84%;
+  background-color: transparent;
+}
+.arrow_up_icon {
+  display: none;
+}
+
+.nav-element {
+  flex-direction: column;
+}
+
+.underline-principal,
+.underline-secundario {
+  text-decoration: underline;
+  background-color: #069be7;
+  margin-top: 0.5rem;
+}
+
+.underline-principal {
+  height: 4px;
+}
+
+.underline-secundario {
+  height: 0;
+  transition: height 350ms ease;
+}
+
+.nav-element:hover .underline-secundario {
+  height: 4px;
+}
+
+.header-right-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.search-input {
+  background-color: white;
+  padding: 0.5rem 2rem 0.5rem 0.6rem;
+  border-style: none;
+  height: 35px;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  border-radius: 0.2rem 0rem 0rem 0.2rem;
+  display: none;
+  width: 0;
+  flex: 1;
+}
+
+.search-input:focus {
+  outline: none;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: #069be7;
+}
+
+.search-button,
+.sign-in-button {
+  height: 35px;
+}
+
+.search-button {
+  background-color: black;
+  border: 1px solid transparent;
+  width: 45px;
+  margin-left: -1;
+  border-radius: 0rem 0.2rem 0.2rem 0rem;
+}
+
+.search-icon {
+  width: 75%;
+  height: 75%;
+  background-color: transparent;
+  border-radius: 0.2rem;
+  display: block;
+  margin: auto;
+}
+
+.language-button {
+  color: #969696;
+  border: none;
+  display: flex;
+  position: relative;
+  width: 5.4rem;
+  font-size: 0.8125rem;
+}
+
+.language-list {
+  display: none;
+  position: absolute;
+  top: 1.7rem;
+  right: -15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.language-list a {
+  display: block;
+  padding: 8px;
+  color: #000;
+  background-color: #fff;
+  transition: all 300ms ease;
+  border-bottom: 2px solid transparent;
+  width: 100%;
+}
+
+.language-list a:hover {
+  background-color: #069be7;
+  color: #fff;
+}
+
+.globe-icon-desktop {
+  width: 18px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.globe-icon-mobile {
+  display: none;
+}
+
+.sign-in-button {
+  color: #969696;
+  padding: 0.625rem 0rem 1.8rem 1.25rem;
+  font-size: 0.8125rem;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.header-underline {
+  height: 0.1rem;
+  background-color: #fff;
+}
+
+.list-menu-icon {
+  display: none;
+}
+
+.close-menu-icon {
+  position: absolute;
+  right: 10px;
+  width: 30px;
+  top: 50px;
+  background-color: transparent;
+  display: none;
+}
