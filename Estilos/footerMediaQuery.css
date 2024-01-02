@@ -43,6 +43,7 @@
 }
 
 @media screen and (max-width: 628px) {
+  /*
   .footer-list li:last-child {
     position: absolute;
     bottom: 60px;
@@ -56,4 +57,5 @@
   .social-media {
     margin-top: 60px;
   }
+  */
 }

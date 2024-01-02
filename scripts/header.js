@@ -98,15 +98,19 @@ function toggleCloseMenuList() {
 function listTeams() {
   var arrowDownIcon = document.getElementById("arrow_down_icon");
   var arrowUpIcon = document.getElementById("arrow_up_icon");
+  var teamsMenuChild = document.querySelector(".drop-menu-child");
 
   arrowDownIcon.style.display = "none";
   arrowUpIcon.style.display = "block";
+  teamsMenuChild.style.display = "block";
 }
 
 function unListTeams() {
   var arrowIconDown = document.getElementById("arrow_down_icon");
   var arrowUpIcon = document.getElementById("arrow_up_icon");
+  var teamsMenuChild = document.querySelector(".drop-menu-child");
 
   arrowIconDown.style.display = "block";
   arrowUpIcon.style.display = "none";
+  teamsMenuChild.style.display = "none";
 }

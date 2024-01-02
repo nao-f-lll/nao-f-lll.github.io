@@ -29,6 +29,7 @@ body {
   flex-direction: column;
 }
 
-a {
+a,
+a:active {
   color: white;
 }
