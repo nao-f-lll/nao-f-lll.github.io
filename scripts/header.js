@@ -110,3 +110,15 @@ function unListTeams() {
   arrowIconDown.style.display = "block";
   arrowUpIcon.style.display = "none";
 }
+
+function listTeamsMenu() {
+  listTeams();
+  var listTeamsMenu = document.querySelector(".drop-menu-child");
+  listTeams.style.display = "block";
+}
+
+function unListTeamsMenu() {
+  unListTeams();
+  var listTeamsMenu = document.querySelector(".drop-menu-child");
+  listTeams.style.display = "none";
+}
