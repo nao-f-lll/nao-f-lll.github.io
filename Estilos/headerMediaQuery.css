@@ -89,7 +89,7 @@
   .sign-in-button {
     position: absolute;
     left: 100px;
-    top: 0;
+    top: -1px;
     color: black;
   }
 }

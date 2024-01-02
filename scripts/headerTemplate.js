@@ -40,7 +40,7 @@ class HeaderComponent extends HTMLElement {
             <li class="drop-menu-parent">
               <a
                 class="nav-element"
-                href="equipos.html"
+                href="#"
                 onmouseover="listTeams()"
                 onmouseleave="unListTeams()"
               >
