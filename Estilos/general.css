@@ -28,3 +28,7 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
+a {
+  color: white;
+}

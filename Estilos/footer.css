@@ -1,0 +1,70 @@
+footer .world-rugby-logo,
+.world-rugby-logo-mobile,
+.twitter-x-icon,
+.reddit-icon,
+.footer-list-element {
+  cursor: pointer;
+}
+
+.footer-container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-underline {
+  height: 0.1rem;
+  background-color: white;
+  margin-top: 300px;
+}
+
+footer .world-rugby-logo,
+.world-rugby-logo-mobile {
+  width: 50px;
+}
+
+footer .world-rugby-logo {
+  margin-left: 50px;
+}
+
+.middle-section-container {
+  text-align: center;
+  font-weight: 600;
+}
+.footer-list {
+  display: flex;
+}
+.footer-list-element {
+  font-size: 12px;
+}
+.footer-list-element:hover a {
+  color: #069be7;
+  text-decoration: underline;
+}
+
+.entity-element {
+  color: #069be7;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.copyright-desclaimer,
+.copyright-desclaimer-mobile {
+  margin-top: 1rem;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.social-media {
+  margin-right: 50px;
+}
+
+.twitter-x-icon,
+.reddit-icon {
+  width: 30px;
+}
+
+.world-rugby-logo-mobile,
+.copyright-desclaimer-mobile {
+  display: none;
+}

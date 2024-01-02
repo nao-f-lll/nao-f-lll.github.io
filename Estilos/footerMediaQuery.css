@@ -1,0 +1,59 @@
+@media screen and (max-width: 940px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .world-rugby-logo,
+  .copyright-desclaimer {
+    display: none;
+  }
+
+  .world-rugby-logo-mobile,
+  .copyright-desclaimer-mobile {
+    display: block;
+  }
+
+  .mobile-version-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-media img {
+    margin: 0 15px;
+    max-width: 100%;
+  }
+
+  .copyright-desclaimer-mobile,
+  .world-rugby-logo-mobile,
+  .social-media {
+    margin-top: 20px;
+  }
+
+  .world-rugby-logo-mobile {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  .footer-list li:last-child {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer-list li:last-child .entity-element {
+    position: absolute;
+  }
+  .social-media {
+    margin-top: 60px;
+  }
+}
