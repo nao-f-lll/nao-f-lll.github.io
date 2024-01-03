@@ -54,6 +54,7 @@
                 href="#"
                 onmouseover="listTeams()"
                 onmouseleave="unListTeams()"
+                ontouchstart="handleTeamsMenu()"
               >
                 Equipos
                 <!-- icono de flecha hacia abajo que aparece en estado normal-->
@@ -76,13 +77,7 @@
                 <span class="underline-secundario"></span>
               </a>
               <!-- sub lista -->
-              <ul
-                class="drop-menu-child"
-                onmouseover="listTeams()"
-                onmouseleave="unListTeams()"
-                ontouchstart="listTeamsMenu()"
-                ontouchend="unListTeamsMenu()"
-              >
+              <ul class="drop-menu-child">
                 <li>
                   <a class="nav-element" href="all_blacks.html">All Blacks</a>
                 </li>
@@ -238,6 +233,11 @@
             class="twitter-x-icon"
             src="media/Imagenes/logos/twitterx_icon.png"
             alt="twitter_x_icon"
+          />
+          <img
+            class="youtube-icon"
+            src="media/Imagenes/logos/youtube_icon.svg"
+            alt="youtube_icon"
           />
           <img
             class="reddit-icon"

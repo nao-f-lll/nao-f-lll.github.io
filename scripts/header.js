@@ -111,14 +111,14 @@ function unListTeams() {
   arrowUpIcon.style.display = "none";
 }
 
-function listTeamsMenu() {
-  listTeams();
+function handleTeamsMenu() {
   var listTeamsMenu = document.querySelector(".drop-menu-child");
-  listTeams.style.display = "block";
-}
-
-function unListTeamsMenu() {
-  unListTeams();
-  var listTeamsMenu = document.querySelector(".drop-menu-child");
-  listTeams.style.display = "none";
+  var isListed = listTeamsMenu.style.display === "block";
+  if (isListed) {
+    unListTeams();
+    listTeamsMenu.style.display = "none";
+  } else {
+    listTeams();
+    listTeamsMenu.style.display = "block";
+  }
 }

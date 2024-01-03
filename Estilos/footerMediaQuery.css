@@ -25,6 +25,10 @@
     justify-content: center;
   }
 
+  .social-media:not(.social-media:first-child) {
+    margin-left: 40px;
+  }
+
   .social-media img {
     margin: 0 15px;
     max-width: 100%;
@@ -43,19 +47,8 @@
 }
 
 @media screen and (max-width: 628px) {
-  /*
-  .footer-list li:last-child {
-    position: absolute;
-    bottom: 60px;
-    left: 50%;
-    transform: translateX(-50%);
+  .footer-list {
+    display: flex;
+    flex-direction: column;
   }
-
-  .footer-list li:last-child .entity-element {
-    position: absolute;
-  }
-  .social-media {
-    margin-top: 60px;
-  }
-  */
 }

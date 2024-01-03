@@ -2,7 +2,8 @@ footer .world-rugby-logo,
 .world-rugby-logo-mobile,
 .twitter-x-icon,
 .reddit-icon,
-.footer-list-element {
+.footer-list-element,
+.youtube-icon {
   cursor: pointer;
 }
 
@@ -60,7 +61,8 @@ footer .world-rugby-logo {
 }
 
 .twitter-x-icon,
-.reddit-icon {
+.reddit-icon,
+.youtube-icon {
   width: 30px;
 }
 
