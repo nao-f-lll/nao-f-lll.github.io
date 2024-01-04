@@ -166,10 +166,13 @@
     line-height: 20px;
   }
 
+  /*
+need revision
+  */
+
   .arrow_down_icon,
   .arrow_up_icon {
-    top: 145px;
+    position: absolute;
     left: 92%;
-    position: fixed;
   }
 }

@@ -1,0 +1,128 @@
+.news-container {
+  display: flex;
+  padding: 20px;
+  margin: auto;
+}
+
+.primary-article-container {
+  position: relative;
+  width: 50%;
+  background-image: url("../media/Imagenes/news/thumbnail/springboks_win_cup.jpg");
+  padding-top: 200px;
+  padding-bottom: 200px;
+  border-radius: 0.3rem;
+  z-index: 0;
+  margin-left: 10px;
+}
+
+.springboks-win-cup {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.main-article-title {
+  font-size: 28px;
+  line-height: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-article-text,
+.publiched-at {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.publiched-at {
+  color: #343a40;
+}
+
+.main-article-title,
+.main-article-text,
+.publiched-at {
+  background-color: inherit;
+}
+
+.primary-article-container-info {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 30px 10px 30px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  line-height: 2.1rem;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.read-more-button {
+  background-color: #069be7;
+  color: white;
+  height: 50px;
+  padding: 0 10px;
+  min-width: 160px;
+  font-size: 16px;
+  border-style: none;
+  font-weight: bold;
+  border-radius: 0.3rem;
+}
+
+.secondary-articles-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.important-news-headers {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.important-news-inner-container {
+  display: flex;
+}
+
+.unimportant-news-container {
+  display: flex;
+}
+
+.second-article-two,
+.second-article-one {
+  width: 80%;
+  padding: 85px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  margin-top: 0px;
+}
+
+.second-article-two {
+  background-image: url("../media/Imagenes/news/thumbnail/all_blacks.jpg");
+  border-radius: 0.3rem;
+}
+.second-article-one {
+  background-image: url("../media/Imagenes/news/thumbnail/all_blacks.jpg");
+}
+
+.third-article-one,
+.third-article-two,
+.third-article-three {
+  width: 33%;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  margin-top: 70px;
+}
+
+.third-article-one {
+  background-image: url("../media/Imagenes/news/thumbnail/goodman.jpg");
+}
+.third-article-two {
+  background-image: url("../media/Imagenes/news/thumbnail/goodman.jpg");
+}
+
+.third-article-three {
+  background-image: url("../media/Imagenes/news/thumbnail/goodman.jpg");
+}

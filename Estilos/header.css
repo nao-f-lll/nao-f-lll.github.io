@@ -28,6 +28,12 @@
   width: 50px;
 }
 
+.nav-list,
+.close-menu-icon,
+.search-input,
+.header-container {
+  z-index: 1;
+}
 .nav-list li a {
   color: white;
   font-size: 15px;
@@ -43,6 +49,7 @@
   background-color: transparent;
   display: none;
   width: 112px;
+  z-index: 1;
 }
 .drop-menu-child li a {
   background-color: #343a40;
@@ -170,6 +177,7 @@
   background-color: #f9f9f9;
   border-radius: 5px;
   padding: 10px;
+  z-index: 2;
 }
 
 .language-list a {

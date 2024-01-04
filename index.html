@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="Estilos/headerMediaQuery.css" />
     <link rel="stylesheet" href="Estilos/footer.css" />
     <link rel="stylesheet" href="Estilos/footerMediaQuery.css" />
-    <title>Inicio</title>
+    <link rel="stylesheet" href="Estilos/main.css" />
+    <link rel="stylesheet" href="Estilos/mainMediaQuery.css" />
+    <title>Inicio &#x21aa; worldrugby.org</title>
   </head>
   <body>
     <header>
@@ -77,7 +79,11 @@
                 <span class="underline-secundario"></span>
               </a>
               <!-- sub lista -->
-              <ul class="drop-menu-child">
+              <ul
+                class="drop-menu-child"
+                onmouseover="listTeams()"
+                onmouseleave="unListTeams()"
+              >
                 <li>
                   <a class="nav-element" href="all_blacks.html">All Blacks</a>
                 </li>
@@ -193,8 +199,53 @@
     </header>
     <script src="scripts/header.js"></script>
 
-    <main></main>
+    <main>
+      <div class="news-container">
+        <div class="primary-article-container">
+          <div class="primary-article-container-info">
+            <p class="main-article-title">
+              EL MOMENTO EN QUE SPRINGBOKS SUPO QUE GANARÍA LA LIGA
+            </p>
+            <p class="main-article-text">
+              Jugador del año del World Rugby en 2019 Pieter-Steph du Toit...
+            </p>
+            <p class="publiched-at">Hace un día</p>
+            <button class="read-more-button">Leer más</button>
+          </div>
+        </div>
+        <div class="secondary-articles-container">
+          <div class="important-news-outer-container">
+            <div class="important-news-headers">
+              <p class="">Ultimas noticias</p>
+              <p>Ver todo</p>
+            </div>
+            <div class="important-news-inner-container">
+              <div class="second-article-one">
+                <p>bla bla bla</p>
+              </div>
 
+              <div class="second-article-two">
+                <p>bla bla bla</p>
+              </div>
+            </div>
+            <div class="unimportant-news-container">
+              <div class="third-article-one">
+                <p>bla bla</p>
+              </div>
+              <div class="third-article-two">
+                <p>bla bla</p>
+              </div>
+              <div class="third-article-three">
+                <p>bla bla</p>
+              </div>
+            </div>
+          </div>
+          <div class="less-important-new"></div>
+        </div>
+      </div>
+    </main>
+
+    <!--Add comentes later !!!!-->
     <footer>
       <hr class="footer-underline" />
       <div class="footer-container">
