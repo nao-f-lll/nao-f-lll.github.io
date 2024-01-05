@@ -1,12 +1,9 @@
 @font-face {
-  font-family: "RugbyChisel";
-  src: url("../fonts/NZRugbyChisel-Bold.eot") format("embedded-opentype"),
-    url("../fonts/NZRugbyChisel-Bold.woff2") format("woff2"),
-    url("../fonts/NZRugbyChisel-Bold.woff") format("woff"),
-    url("../fonts/NZRugbyChisel-Bold.ttf") format("truetype");
+  font-family: "NZ_Rugby";
+  src: url("../fonts/NZRugbyChisel-Bold.woff2") format("woff2"),
+    url("../fonts/NZRugbyChisel-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 * {
@@ -16,7 +13,10 @@
   background-color: #000;
   text-decoration: none;
   list-style: none;
-  font-family: georgia;
+}
+
+header {
+  font-family: Georgia;
 }
 
 body {
@@ -27,6 +27,10 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+main {
+  font-family: "Times New Roman", Times, serif;
 }
 
 a,

@@ -2,6 +2,8 @@
   display: flex;
   padding: 20px;
   margin: auto;
+  max-width: 100%;
+  font-size: 1.2vw;
 }
 
 .primary-article-container {
@@ -15,32 +17,35 @@
   margin-left: 10px;
 }
 
-.springboks-win-cup {
+.springboks-win-cup,
+.primary-article-container-info {
   width: 100%;
   border-radius: 0.3rem;
 }
 .main-article-title {
   font-size: 28px;
-  line-height: 1;
-  font-weight: bold;
-  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 .main-article-text,
-.publiched-at {
-  font-size: 12px;
+.publiched-at,
+.main-article-title {
   font-weight: bold;
   text-transform: uppercase;
-}
-
-.publiched-at {
-  color: #343a40;
-}
-
-.main-article-title,
-.main-article-text,
-.publiched-at {
   background-color: inherit;
+}
+
+.primary-article-container,
+.read-more-button {
+  cursor: pointer;
+}
+.main-article-text {
+  font-size: 13.5px;
+}
+
+.publiched-at {
+  color: #999;
+  font-size: 12px;
 }
 
 .primary-article-container-info {
@@ -48,28 +53,32 @@
   background-color: rgb(255, 255, 255);
   padding: 10px 30px 10px 30px;
   position: absolute;
-  bottom: 0px;
-  width: 100%;
-  line-height: 2.1rem;
+  bottom: -50px;
+  line-height: 2.3rem;
   border-radius: 0 0 0.3rem 0.3rem;
 }
 
 .read-more-button {
   background-color: #069be7;
   color: white;
-  height: 50px;
-  padding: 0 10px;
-  min-width: 160px;
+  padding: 10px 10px;
+  min-width: 120px;
   font-size: 16px;
   border-style: none;
   font-weight: bold;
   border-radius: 0.3rem;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.read-more-button:hover {
+  background-color: #0582c2;
 }
 
 .secondary-articles-container {
   display: flex;
   flex-direction: column;
   width: 50%;
+  margin-left: 10px;
 }
 
 .important-news-headers {
@@ -77,6 +86,7 @@
   justify-content: space-between;
   margin-left: 30px;
   margin-right: 30px;
+  margin-bottom: 8px;
 }
 
 .important-news-inner-container {
@@ -89,20 +99,62 @@
 
 .second-article-two,
 .second-article-one {
-  width: 80%;
+  width: 100%;
   padding: 85px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
   margin-top: 0px;
+  position: relative;
+  border-radius: 1rem;
+  display: flex;
 }
 
-.second-article-two {
-  background-image: url("../media/Imagenes/news/thumbnail/all_blacks.jpg");
-  border-radius: 0.3rem;
+.second-article-info {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 80%;
+  bottom: -50px;
+  left: 10%;
+  border-radius: 0 0 0.3rem 0.3rem;
+  cursor: pointer;
 }
+
 .second-article-one {
   background-image: url("../media/Imagenes/news/thumbnail/all_blacks.jpg");
+}
+.second-article-two {
+  background-image: url("../media/Imagenes/news/thumbnail/red_rose_new_player.jpg");
+}
+
+.secondary-article-title,
+.secondary-article-text,
+.publiched-at-secondary,
+.third-article-title,
+.third-article-text,
+.publiched-at-third {
+  background-color: white;
+  color: black;
+}
+
+.secondary-article-title,
+.secondary-article-text {
+  margin-bottom: 10px;
+}
+
+.secondary-article-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.secondary-article-text {
+  font-size: 13px;
+}
+
+.publiched-at-secondary,
+.publiched-at-third {
+  font-size: 13px;
+  color: #6c757d;
 }
 
 .third-article-one,
@@ -113,16 +165,70 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
-  margin-top: 70px;
+  margin-top: 60px;
+  position: relative;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  display: flex;
 }
 
 .third-article-one {
-  background-image: url("../media/Imagenes/news/thumbnail/goodman.jpg");
+  background-image: url("../media/Imagenes/news/thumbnail/black_fernes.jpg");
+  margin-left: 5px;
 }
 .third-article-two {
-  background-image: url("../media/Imagenes/news/thumbnail/goodman.jpg");
+  background-image: url("../media/Imagenes/news/thumbnail/new_stadium_sakuras.jpg");
 }
 
 .third-article-three {
-  background-image: url("../media/Imagenes/news/thumbnail/goodman.jpg");
+  background-image: url("../media/Imagenes/news/thumbnail/wallabies_meeting_shamrok.jpg");
+}
+
+.third-article-info {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 80%;
+  bottom: -94px;
+  left: 10%;
+  border-radius: 0 0 0.3rem 0.3rem;
+  cursor: pointer;
+}
+
+.third-article-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.third-article-text {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.last-news-header {
+  font-weight: bold;
+}
+
+.see-more-section {
+  display: flex;
+  cursor: pointer;
+}
+.arrow-right-icon {
+  width: 19px;
+  margin-left: 5px;
+}
+
+.latest-videos-conatiner {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-videos-header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 8px;
 }
