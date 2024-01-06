@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="Estilos/footerMediaQuery.css" />
     <link rel="stylesheet" href="Estilos/main.css" />
     <link rel="stylesheet" href="Estilos/mainMediaQuery.css" />
+    <link rel="stylesheet" href="Estilos/main/videos.css" />
     <title>Inicio &#x21aa; worldrugby.org</title>
   </head>
   <body>
@@ -198,10 +199,13 @@
       <hr class="header-underline" />
     </header>
     <script src="scripts/header.js"></script>
-
+    <!--Add comentes later !!!!-->
     <main>
       <div class="news-container">
-        <div class="primary-article-container">
+        <a
+          class="primary-article-container"
+          href="noticias/cuando-springboks-supo-que-ganaria-la-liga.html"
+        >
           <div class="primary-article-container-info">
             <p class="main-article-title">
               EL MOMENTO EN QUE SPRINGBOKS SUPO QUE GANARÍA LA LIGA
@@ -213,7 +217,7 @@
             <p class="publiched-at">Hace un día</p>
             <button class="read-more-button">Leer Más</button>
           </div>
-        </div>
+        </a>
         <div class="secondary-articles-container">
           <div class="important-news-outer-container">
             <div class="important-news-headers">
@@ -228,7 +232,10 @@
               </div>
             </div>
             <div class="important-news-inner-container">
-              <div class="second-article-one">
+              <a
+                href="noticias/all-blacks-dessarollan-la-pretempurada-en-cardiff.html"
+                class="second-article-one"
+              >
                 <div class="second-article-info">
                   <p class="secondary-article-title">
                     All Blacks continúan el desarrollo de la pretemporada en
@@ -240,9 +247,12 @@
                   </p>
                   <p class="publiched-at-secondary">HACE 2 DIAS</p>
                 </div>
-              </div>
+              </a>
 
-              <div class="second-article-two">
+              <a
+                href="noticias/sam-cane-ahora-es-capitan-del-red-rose.html"
+                class="second-article-two"
+              >
                 <div class="second-article-info">
                   <p class="secondary-article-title">
                     Sam Cane nombrado capitán de Red Rose
@@ -253,10 +263,13 @@
                   </p>
                   <p class="publiched-at-secondary">HACE 6 DIAS</p>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="unimportant-news-container">
-              <div class="third-article-one">
+              <a
+                href="noticias/miller-confirma-jugar-para-los ferns.html"
+                class="third-article-one"
+              >
                 <div class="third-article-info">
                   <p class="third-article-title">
                     Miller confirma jugar para los Ferns
@@ -266,8 +279,11 @@
                   </p>
                   <p class="publiched-at-third">HACE 10 DIAS</p>
                 </div>
-              </div>
-              <div class="third-article-two">
+              </a>
+              <a
+                href="noticias/sakuras-frente-a-shamrock-en-cuartos.html"
+                class="third-article-two"
+              >
                 <div class="third-article-info">
                   <p class="third-article-title">
                     Sakuras frente a Shamrock en cuartos
@@ -277,25 +293,29 @@
                   </p>
                   <p class="publiched-at-third">HACE 13 DIAS</p>
                 </div>
-              </div>
-              <div class="third-article-three">
+              </a>
+              <a
+                href="noticias/los-wallabies-tienen-mucho-para-construir.html"
+                class="third-article-three"
+              >
                 <div class="third-article-info">
                   <p class="third-article-title">
-                    Los wallabíes tienen mucho para construir
+                    Los wallabies tienen mucho para construir
                   </p>
                   <p class="third-article-text">
                     Hooker, quien anotó el último de los ensayos de...
                   </p>
                   <p class="publiched-at-third">HACE 14 DIAS</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
           <div class="less-important-new"></div>
         </div>
       </div>
+      <!--Add comentes later !!!!-->
 
-      <div class="latest-videos-conatiner">
+      <div class="latest-videos-container">
         <div class="latest-videos-header">
           <p>LATEST VIDEOS</p>
           <div class="see-more-section">
@@ -307,10 +327,73 @@
             />
           </div>
         </div>
+        <div class="video-cards-container">
+          <div class="slider-wrapper">
+            <button id="prev-silde" class="flow-left-button flow-button">
+              <img
+                src="media/Imagenes/logos/arrow_left_white_icon.png"
+                alt="arrow_left_white_icon"
+              />
+            </button>
+            <div class="image-list">
+              <img
+                src="media/Imagenes/news/thumbnail/cape_town_preview.jpg"
+                alt="cape_town_preview"
+                class="image-item"
+              />
+              <img
+                src="media/Imagenes/news/thumbnail/fans_in_lyon.jpg"
+                alt="cape_town_preview"
+                class="image-item"
+              />
+              <img
+                src="media/Imagenes/news/thumbnail/fans_try.jpg"
+                alt="cape_town_preview"
+                class="image-item"
+              />
+              <img
+                src="media/Imagenes/news/thumbnail/rugbyAward.jpg"
+                alt="cape_town_preview"
+                class="image-item"
+              />
+              <img
+                src="media/Imagenes/news/thumbnail/same_cane.jpg"
+                alt="cape_town_preview"
+                class="image-item"
+              />
+              <img
+                src="media/Imagenes/news/thumbnail/rugby_recoded.jpg"
+                alt="cape_town_preview"
+                class="image-item"
+              />
+              <img
+                src="media/Imagenes/news/thumbnail/press_conference.jpg"
+                alt="cape_town_preview"
+                class="image-item"
+              />
+              <img
+                src="media/Imagenes/news/thumbnail/match_highlights.jpg"
+                alt="cape_town_preview"
+                class="image-item"
+              />
+            </div>
+
+            <button id="next-silde" class="flow-right-button flow-button">
+              <img
+                src="media/Imagenes/logos/arrow_right_white_icon.png"
+                alt="arrow_right_white_icon"
+              />
+            </button>
+          </div>
+        </div>
       </div>
 
-      <div class="competetion-container"></div>
+      <script src="scripts/slider.js"></script>
 
+      <!--Add comentes later !!!!-->
+
+      <div class="competetion-container"></div>
+      <!--Add comentes later !!!!-->
       <div class="tradition-container"></div>
     </main>
 

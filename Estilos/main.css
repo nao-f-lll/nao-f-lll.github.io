@@ -10,11 +10,14 @@
   position: relative;
   width: 50%;
   background-image: url("../media/Imagenes/news/thumbnail/springboks_win_cup.jpg");
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
   border-radius: 0.3rem;
   z-index: 0;
   margin-left: 10px;
+  max-width: 50%;
+  background-repeat: no-repeat;
 }
 
 .springboks-win-cup,
@@ -24,7 +27,7 @@
 }
 .main-article-title {
   font-size: 28px;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .main-article-text,
@@ -39,8 +42,10 @@
 .read-more-button {
   cursor: pointer;
 }
+
 .main-article-text {
   font-size: 13.5px;
+  line-height: 1.5;
 }
 
 .publiched-at {
@@ -85,7 +90,7 @@
   display: flex;
   justify-content: space-between;
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right: 10px;
   margin-bottom: 8px;
 }
 
@@ -99,33 +104,36 @@
 
 .second-article-two,
 .second-article-one {
-  width: 100%;
-  padding: 85px;
+  width: 43%;
+  padding-top: 85px;
+  padding-bottom: 85px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%;
   margin-top: 0px;
   position: relative;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
   display: flex;
+  background-size: cover;
+  cursor: pointer;
 }
 
 .second-article-info {
   position: absolute;
   background-color: rgb(255, 255, 255);
   padding: 10px;
-  width: 80%;
   bottom: -50px;
-  left: 10%;
+  left: 0;
   border-radius: 0 0 0.3rem 0.3rem;
   cursor: pointer;
 }
 
 .second-article-one {
   background-image: url("../media/Imagenes/news/thumbnail/all_blacks.jpg");
+  margin-left: 5%;
 }
 .second-article-two {
   background-image: url("../media/Imagenes/news/thumbnail/red_rose_new_player.jpg");
+  margin-left: 6.8%;
 }
 
 .secondary-article-title,
@@ -140,7 +148,7 @@
 
 .secondary-article-title,
 .secondary-article-text {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .secondary-article-title {
@@ -160,37 +168,41 @@
 .third-article-one,
 .third-article-two,
 .third-article-three {
-  width: 33%;
+  width: 29%;
   padding: 50px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-top: 60px;
   position: relative;
   border-radius: 0.3rem;
   background-color: transparent;
   display: flex;
+  cursor: pointer;
 }
 
 .third-article-one {
   background-image: url("../media/Imagenes/news/thumbnail/black_fernes.jpg");
-  margin-left: 5px;
+  margin-left: 5%;
 }
 .third-article-two {
   background-image: url("../media/Imagenes/news/thumbnail/new_stadium_sakuras.jpg");
+  margin-left: 3%;
 }
 
 .third-article-three {
   background-image: url("../media/Imagenes/news/thumbnail/wallabies_meeting_shamrok.jpg");
+  margin-left: 3%;
 }
 
 .third-article-info {
   position: absolute;
   background-color: rgb(255, 255, 255);
   padding: 10px;
-  width: 80%;
-  bottom: -94px;
-  left: 10%;
+  bottom: -73px;
+  left: 0;
   border-radius: 0 0 0.3rem 0.3rem;
   cursor: pointer;
 }
@@ -203,7 +215,7 @@
 
 .third-article-text {
   font-size: 13px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .last-news-header {
@@ -217,18 +229,4 @@
 .arrow-right-icon {
   width: 19px;
   margin-left: 5px;
-}
-
-.latest-videos-conatiner {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-.latest-videos-header {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 8px;
 }
