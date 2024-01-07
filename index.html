@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="Estilos/main.css" />
     <link rel="stylesheet" href="Estilos/mainMediaQuery.css" />
     <link rel="stylesheet" href="Estilos/main/videos.css" />
+    <link rel="stylesheet" href="Estilos/main/competetions.css" />
+    <link rel="stylesheet" href="Estilos/main/traditions.css" />
     <title>Inicio &#x21aa; worldrugby.org</title>
   </head>
   <body>
@@ -223,7 +225,7 @@
             <div class="important-news-headers">
               <h4 class="last-news-header">ULTIMAS NOTICIAS</h4>
               <div class="see-more-section">
-                <a href="#"> Ver todo</a>
+                <a href="noticias.html"> Ver todo</a>
                 <img
                   class="arrow-right-icon"
                   src="media/Imagenes/logos/arrow_right_icon.png"
@@ -317,9 +319,9 @@
 
       <div class="latest-videos-container">
         <div class="latest-videos-header">
-          <p>LATEST VIDEOS</p>
+          <p class="latest-videos-header-title">ULTIMOS VIDEOS</p>
           <div class="see-more-section">
-            <a href="#"> Ver todo</a>
+            <a href="videos.html">Ver todo</a>
             <img
               class="arrow-right-icon"
               src="media/Imagenes/logos/arrow_right_icon.png"
@@ -336,46 +338,147 @@
               />
             </button>
             <div class="image-list">
-              <img
-                src="media/Imagenes/news/thumbnail/cape_town_preview.jpg"
-                alt="cape_town_preview"
-                class="image-item"
-              />
-              <img
-                src="media/Imagenes/news/thumbnail/fans_in_lyon.jpg"
-                alt="cape_town_preview"
-                class="image-item"
-              />
-              <img
-                src="media/Imagenes/news/thumbnail/fans_try.jpg"
-                alt="cape_town_preview"
-                class="image-item"
-              />
-              <img
-                src="media/Imagenes/news/thumbnail/rugbyAward.jpg"
-                alt="cape_town_preview"
-                class="image-item"
-              />
-              <img
-                src="media/Imagenes/news/thumbnail/same_cane.jpg"
-                alt="cape_town_preview"
-                class="image-item"
-              />
-              <img
-                src="media/Imagenes/news/thumbnail/rugby_recoded.jpg"
-                alt="cape_town_preview"
-                class="image-item"
-              />
-              <img
-                src="media/Imagenes/news/thumbnail/press_conference.jpg"
-                alt="cape_town_preview"
-                class="image-item"
-              />
-              <img
-                src="media/Imagenes/news/thumbnail/match_highlights.jpg"
-                alt="cape_town_preview"
-                class="image-item"
-              />
+              <span class="play-container">
+                <img
+                  id="first-child-image"
+                  class="image-item"
+                  onclick="location.href='videos/preview-cape-town-svns-2023.html'"
+                  src="media/Imagenes/news/thumbnail/cape_town_preview.jpg"
+                  alt="cape_town_preview"
+                />
+                <a
+                  class="video-link"
+                  href="videos/preview-cape-town-svns-2023.html"
+                  ><button class="play-button">
+                    <img
+                      class="play-icon"
+                      src="media/Imagenes/logos/play_icon.png"
+                      alt="play_icon"
+                    /></button
+                ></a>
+              </span>
+
+              <span class="play-container">
+                <img
+                  onclick="location.href='videos/fans-go-crazy-in-lyon.html'"
+                  src="media/Imagenes/news/thumbnail/fans_in_lyon.jpg"
+                  alt="/fans_in_lyon"
+                  class="image-item"
+                />
+                <a
+                  class="video-link"
+                  href="videos/preview-cape-town-svns-2023.html"
+                  ><button class="play-button">
+                    <img
+                      class="play-icon"
+                      src="media/Imagenes/logos/play_icon.png"
+                      alt="play_icon"
+                    /></button
+                ></a>
+              </span>
+
+              <span class="play-container">
+                <img
+                  src="media/Imagenes/news/thumbnail/fans_try.jpg"
+                  alt="fans_try"
+                  class="image-item"
+                />
+                <a
+                  class="video-link"
+                  href="videos/preview-cape-town-svns-2023.html"
+                  ><button class="play-button">
+                    <img
+                      class="play-icon"
+                      src="media/Imagenes/logos/play_icon.png"
+                      alt="play_icon"
+                    /></button
+                ></a>
+              </span>
+              <span class="play-container">
+                <img
+                  src="media/Imagenes/news/thumbnail/rugbyAward.jpg"
+                  alt="rugby_award"
+                  class="image-item"
+                />
+                <a
+                  class="video-link"
+                  href="videos/preview-cape-town-svns-2023.html"
+                  ><button class="play-button">
+                    <img
+                      class="play-icon"
+                      src="media/Imagenes/logos/play_icon.png"
+                      alt="play_icon"
+                    /></button
+                ></a>
+              </span>
+              <span class="play-container">
+                <img
+                  src="media/Imagenes/news/thumbnail/same_cane.jpg"
+                  alt="same_cane"
+                  class="image-item"
+                />
+                <a
+                  class="video-link"
+                  href="videos/preview-cape-town-svns-2023.html"
+                  ><button class="play-button">
+                    <img
+                      class="play-icon"
+                      src="media/Imagenes/logos/play_icon.png"
+                      alt="play_icon"
+                    /></button
+                ></a>
+              </span>
+              <span class="play-container">
+                <img
+                  src="media/Imagenes/news/thumbnail/rugby_recoded.jpg"
+                  alt="rugby_recoded"
+                  class="image-item"
+                />
+                <a
+                  class="video-link"
+                  href="videos/preview-cape-town-svns-2023.html"
+                  ><button class="play-button">
+                    <img
+                      class="play-icon"
+                      src="media/Imagenes/logos/play_icon.png"
+                      alt="play_icon"
+                    /></button
+                ></a>
+              </span>
+              <span class="play-container">
+                <img
+                  src="media/Imagenes/news/thumbnail/press_conference.jpg"
+                  alt="press_conference"
+                  class="image-item"
+                />
+                <a
+                  class="video-link"
+                  href="videos/preview-cape-town-svns-2023.html"
+                  ><button class="play-button">
+                    <img
+                      class="play-icon"
+                      src="media/Imagenes/logos/play_icon.png"
+                      alt="play_icon"
+                    /></button
+                ></a>
+              </span>
+              <span class="play-container">
+                <img
+                  src="media/Imagenes/news/thumbnail/match_highlights.jpg"
+                  alt="match_highlights"
+                  class="image-item"
+                />
+                <a
+                  class="video-link"
+                  href="videos/preview-cape-town-svns-2023.html"
+                  ><button class="play-button">
+                    <img
+                      class="play-icon"
+                      src="media/Imagenes/logos/play_icon.png"
+                      alt="play_icon"
+                    /></button
+                ></a>
+              </span>
             </div>
 
             <button id="next-silde" class="flow-right-button flow-button">
@@ -391,10 +494,67 @@
       <script src="scripts/slider.js"></script>
 
       <!--Add comentes later !!!!-->
+      <div class="competetion-container">
+        <p class="competetion-title">COPETECIONES</p>
+        <div class="image-list-competitions">
+          <img
+            src="media/Imagenes/logos/pacific.png"
+            alt="pacific-league"
+            class="competetion"
+          />
+          <img
+            src="media/Imagenes/logos/bunnings-warehouse-fpc.png"
+            alt="bunnings-warehouse-fpc"
+            class="competetion"
+          />
+          <img
+            src="media/Imagenes/logos/bunnings-warehouse-heartland-championship.png"
+            alt="bunnings-warehouse-heartland-championship"
+            class="competetion"
+          />
+          <img
+            src="media/Imagenes/logos/super_rugby.png"
+            alt="super_rugby"
+            class="competetion"
+          />
+          <img
+            src="media/Imagenes/logos/bunnings-warehouse.png"
+            alt="bunnings-warehouse"
+            class="competetion"
+          />
+        </div>
+      </div>
 
-      <div class="competetion-container"></div>
       <!--Add comentes later !!!!-->
-      <div class="tradition-container"></div>
+      <div class="tradition-container">
+        <div class="tradition-text-container">
+          <div class="tradition-text-sub-container">
+            <h1 class="tradition-title">LA HAKA</h1>
+            <h3 class="tradition-sub-title">Orígenes e Historia de la Haka</h3>
+            <p class="tradition-text">
+              Para la mayoría de los no maoríes hoy en día su conocimiento de la
+              Haka se limita quizás a la más interpretada de Haka llamada "Ka
+              mate, Ka mate", que fue compuesta por Ngati Toa Chieftain Te
+              Rauparaha alrededor de 1820. Muchos equipos deportivos y personas
+              que viajan desde Nueva Zelanda al extranjero tienden a tener el
+              haka "Kamate" como parte de su programa.
+            </p>
+            <a
+              class="haka-link"
+              href="https://es.wikipedia.org/wiki/Haka"
+              target="_blank"
+              ><button class="tradition-buttons">Descubre más</button></a
+            >
+          </div>
+        </div>
+        <div class="tradition-image-container">
+          <img
+            class="tradition-image"
+            src="media/Imagenes/tradition/haka_history.jpg"
+            alt="haka_history"
+          />
+        </div>
+      </div>
     </main>
 
     <!--Add comentes later !!!!-->
@@ -428,7 +588,7 @@
           </ul>
 
           <p class="copyright-desclaimer">
-            Copyright World Rugby 1840-2024 &#xa9;
+            Copyright World Rugby 1886-2024 &#xa9;
           </p>
         </div>
         <div class="social-media">
@@ -442,16 +602,18 @@
             src="media/Imagenes/logos/youtube_icon.svg"
             alt="youtube_icon"
           />
-          <img
-            class="reddit-icon"
-            src="media/Imagenes/logos/reddit_icon.png"
-            alt="reddit_icon"
-          />
+          <a href="https://www.reddit.com/r/rugbyunion/" target="_blank">
+            <img
+              class="reddit-icon"
+              src="media/Imagenes/logos/reddit_icon.png"
+              alt="reddit_icon"
+            />
+          </a>
         </div>
       </div>
       <div class="mobile-version-container">
         <p class="copyright-desclaimer-mobile">
-          Copyright World Rugby 1840-2024 &#xa9;
+          Copyright World Rugby 1886-2024 &#xa9;
         </p>
         <img
           class="world-rugby-logo-mobile"

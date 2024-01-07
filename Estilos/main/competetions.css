@@ -1,0 +1,21 @@
+.competetion-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-list-competitions {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.competetion {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competetion-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 30px;
+}

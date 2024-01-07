@@ -1,0 +1,65 @@
+.tradition-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.tradition-text-container {
+  width: 50%;
+  background-image: url("../../media/Imagenes/tradition/jersey-bg.jpg");
+  background-size: cover;
+  margin-left: 2%;
+  color: white;
+  border-radius: 0.6rem 0 0 0.6rem;
+}
+.tradition-text-sub-container {
+  background: transparent;
+  margin-top: 50px;
+  margin-left: 70px;
+  width: 70%;
+}
+
+.tradition-title,
+.tradition-sub-title,
+.tradition-text,
+.tradition-buttons,
+.haka-link {
+  background-color: transparent;
+}
+
+.tradition-title,
+.tradition-sub-title {
+  line-height: 2;
+}
+
+.tradition-text {
+  line-height: 1.3;
+  font-size: 18px;
+}
+
+.tradition-buttons {
+  margin-top: 15px;
+  padding: 0.7rem;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-style: solid;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  border-radius: 0.3rem;
+}
+
+.tradition-buttons:hover {
+  background-color: #343a40;
+}
+
+.tradition-image-container {
+  width: 50%;
+  margin-right: 2%;
+}
+
+.tradition-image {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 0 0.6rem 0.6rem 0;
+}

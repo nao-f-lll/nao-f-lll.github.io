@@ -34,7 +34,7 @@ class FooterComponent extends HTMLElement {
         </ul>
 
         <p class="copyright-desclaimer">
-          Copyright World Rugby 1840-2024 &#xa9;
+          Copyright World Rugby 1886-2024 &#xa9;
         </p>
       </div>
       <div class="social-media">
@@ -48,16 +48,18 @@ class FooterComponent extends HTMLElement {
           src="media/Imagenes/logos/youtube_icon.svg"
           alt="youtube_icon"
         />
+        <a href="https://www.reddit.com/r/rugbyunion/" target="_blank">
         <img
           class="reddit-icon"
           src="media/Imagenes/logos/reddit_icon.png"
           alt="reddit_icon"
         />
+      </a>
       </div>
     </div>
     <div class="mobile-version-container">
       <p class="copyright-desclaimer-mobile">
-        Copyright World Rugby 1840-2024 &#xa9;
+        Copyright World Rugby 1886-2024 &#xa9;
       </p>
       <img
         class="world-rugby-logo-mobile"

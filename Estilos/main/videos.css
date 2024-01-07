@@ -23,6 +23,7 @@
   visibility: visible;
 }
 .flow-left-button {
+  z-index: 1;
   display: none;
 }
 
@@ -57,7 +58,7 @@
   cursor: pointer;
 }
 
-.slider-wrapper .image-list .image-item:first-child {
+.slider-wrapper .image-list #first-child-image {
   margin-left: 35px;
 }
 
@@ -91,4 +92,57 @@
 
 .flow-button img {
   background-color: transparent;
+}
+
+.latest-videos-header-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.see-more-section {
+  display: flex;
+  cursor: pointer;
+}
+
+.see-more-section a {
+  font-size: 16px;
+  font-weight: 600;
+}
+.arrow-right-icon {
+  width: 19px;
+  margin-left: 5px;
+}
+
+.play-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.play-icon {
+  position: absolute;
+  width: 30px;
+  background: transparent;
+  top: 25%;
+  left: 28%;
+  color: black;
+}
+
+.play-button {
+  position: relative;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  top: 25%;
+  right: 35%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 0.3rem solid white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.play-button:hover,
+.play-container:hover .image-item + .video-link .play-button {
+  background-color: #069be7;
+  border-color: #069be7;
 }

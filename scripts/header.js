@@ -20,6 +20,7 @@ document.addEventListener("click", function (event) {
   }
 });
 
+/*
 document.addEventListener("click", function (event) {
   var searchButton = document.getElementById("search-button");
   var searchInput = document.getElementById("search-input");
@@ -34,7 +35,7 @@ document.addEventListener("click", function (event) {
     searchIcon.style.backgroundColor = "black";
   }
 });
-
+*/
 function toggleInputSearch() {
   var searchButton = document.getElementById("search-button");
   var searchInput = document.getElementById("search-input");

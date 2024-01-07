@@ -221,12 +221,3 @@
 .last-news-header {
   font-weight: bold;
 }
-
-.see-more-section {
-  display: flex;
-  cursor: pointer;
-}
-.arrow-right-icon {
-  width: 19px;
-  margin-left: 5px;
-}
