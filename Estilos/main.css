@@ -9,7 +9,8 @@
 .primary-article-container {
   position: relative;
   width: 50%;
-  background-image: url("../media/Imagenes/news/thumbnail/springboks_win_cup.jpg");
+  background-image: url("../media/Imagenes/news/thumbnail/springboks_win_cup.jpg"),
+    url("../media/Imagenes/news/thumbnail/springboks_win_cup.png");
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -125,14 +126,17 @@
   left: 0;
   border-radius: 0 0 0.3rem 0.3rem;
   cursor: pointer;
+  width: 100%;
 }
 
 .second-article-one {
-  background-image: url("../media/Imagenes/news/thumbnail/all_blacks.jpg");
+  background-image: url("../media/Imagenes/news/thumbnail/all_blacks.jpg"),
+    url("../media/Imagenes/news/thumbnail/all_blacks.png");
   margin-left: 5%;
 }
 .second-article-two {
-  background-image: url("../media/Imagenes/news/thumbnail/red_rose_new_player.jpg");
+  background-image: url("../media/Imagenes/news/thumbnail/red_rose_new_player.jpg"),
+    url("../media/Imagenes/news/thumbnail/red_rose_new_player.png");
   margin-left: 6.8%;
 }
 
@@ -184,16 +188,19 @@
 }
 
 .third-article-one {
-  background-image: url("../media/Imagenes/news/thumbnail/black_fernes.jpg");
+  background-image: url("../media/Imagenes/news/thumbnail/black_fernes.jpg"),
+    url("../media/Imagenes/news/thumbnail/black_fernes.png");
   margin-left: 5%;
 }
 .third-article-two {
-  background-image: url("../media/Imagenes/news/thumbnail/new_stadium_sakuras.jpg");
+  background-image: url("../media/Imagenes/news/thumbnail/new_stadium_sakuras.jpg"),
+    url("../media/Imagenes/news/thumbnail/new_stadium_sakuras.png");
   margin-left: 3%;
 }
 
 .third-article-three {
-  background-image: url("../media/Imagenes/news/thumbnail/wallabies_meeting_shamrok.jpg");
+  background-image: url("../media/Imagenes/news/thumbnail/wallabies_meeting_shamrok.jpg"),
+    url("../media/Imagenes/news/thumbnail/wallabies_meeting_shamrok.png");
   margin-left: 3%;
 }
 

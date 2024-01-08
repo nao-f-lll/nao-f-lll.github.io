@@ -1,5 +1,118 @@
+@media screen and (max-width: 1324px) {
+  .tradition-buttons {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1228px) {
+  .second-article-info {
+    height: 75%;
+  }
+  .third-article-info {
+    height: 95%;
+  }
+
+  .third-article-title,
+  .third-article-text,
+  .publiched-at-third {
+    font-size: 94%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .second-article-info {
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 954px) {
+  .tradition-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: 954px) {
+    .second-article-info {
+      height: 80%;
+    }
+    .secondary-article-title,
+    .secondary-article-text,
+    .publiched-at-secondary {
+      font-size: 120%;
+    }
+  }
+
+  .tradition-text-container {
+    flex: 1;
+    border-radius: 0.6rem !important;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  .tradition-text-sub-container {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border-radius: 0.6rem;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+
+  .tradition-image-container {
+    display: none;
+  }
+
+  .tradition-image {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 940px) {
   .news-container {
+    flex-direction: column;
+  }
+
+  .primary-article-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+  }
+  .secondary-articles-container {
     display: none;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .image-list-competitions {
+    grid-template-columns: repeat(4, 1fr) !important;
+    row-gap: 18px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .primary-article-container-info {
+    line-height: 1.8rem;
+  }
+
+  .main-article-title {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .image-list-competitions {
+    grid-template-columns: repeat(3, 1fr) !important;
+    row-gap: 18px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .primary-article-container-info {
+    line-height: 1rem;
+  }
+
+  .main-article-title {
+    font-size: 23px;
+    line-height: 1.3;
   }
 }
