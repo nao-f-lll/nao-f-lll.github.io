@@ -1,35 +1,55 @@
-.top-section-container {
-  background-image: url("../media/Imagenes/logos/title-bg.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  padding-top: 70px;
-  background-size: cover;
-  padding-top: 70px;
-  height: 175px;
-}
-
-.top-section-container .text-container {
-  background: transparent;
+.team-container {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: calc(100% - 290px);
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.team-name {
+  margin-top: 60px;
+  font-size: 30px;
+  position: relative;
 }
 
-.top-section-container .text-container .title,
-.top-section-container .text-container .sub-title {
+.team-image {
+  position: relative;
+  width: 70%;
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+}
+
+.team-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url("../media/Imagenes/teams/all_blacks_players.jpg");
+  background-size: cover;
+}
+
+.description-container {
+  background-image: url("../media/Imagenes/tradition/jersey-bg.jpg");
+  background-size: cover;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+  margin-top: 20px;
+}
+
+.description-container .text {
+  bottom: 50px;
   background: transparent;
-  line-height: 1.4;
-  width: 100%;
-}
-
-.top-section-container .text-container .sub-title {
-  font-weight: 600;
-  font-size: 18px;
-  margin-top: 5px;
-}
-
-.top-section-container .text-container .title {
-  font-weight: bold;
-  font-size: 38px;
+  line-height: 1.9;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 390px);
+  padding-top: 60px;
 }

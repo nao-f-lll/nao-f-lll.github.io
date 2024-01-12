@@ -1,0 +1,85 @@
+.wrapper {
+  width: min(1500px, 100% - 3rem);
+  margin-inline: auto;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  max-width: 100%;
+  overflow-x: auto;
+  margin-top: 30px;
+  border-radius: 0.3rem;
+}
+
+table {
+  border-collapse: collapse;
+  background: #323232;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 1rem;
+  background: #323232;
+}
+
+th,
+tr {
+  text-align: center;
+}
+
+th {
+  background: hsl(0 0% 50% / 0.5);
+}
+
+.logo {
+  background: transparent;
+  width: 55px;
+}
+
+[data-cell="name"],
+[data-cell="logo"] {
+  padding: 0;
+}
+
+[data-cell="name"] {
+  width: 75px;
+}
+
+@media (max-width: 786px) {
+  .wrapper {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 688px) {
+  .wrapper {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 647px) {
+  [data-cell="ties"],
+  .ties {
+    display: none;
+  }
+}
+
+@media (max-width: 562px) {
+  [data-cell="loses"],
+  .loses {
+    display: none;
+  }
+}
+
+@media (max-width: 485px) {
+  [data-cell="wins"],
+  .wins {
+    display: none;
+  }
+}
+
+@media (max-width: 395px) {
+  [data-cell="games-played"],
+  .games-played {
+    display: none;
+  }
+}

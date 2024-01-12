@@ -5,6 +5,8 @@
 .wrapper {
   display: flex;
   flex-direction: column;
+  margin-top: 90px;
+  margin-bottom: 210px;
 }
 
 .refrence-text {

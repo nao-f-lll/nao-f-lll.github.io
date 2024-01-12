@@ -61,7 +61,7 @@
 }
 
 .drop-menu-parent {
-  margin-right: 0.5px;
+  margin-right: 1.9px;
 }
 .drop-menu-parent:hover .drop-menu-child {
   display: block;

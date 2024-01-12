@@ -6,22 +6,33 @@
 
 @media screen and (max-width: 1228px) {
   .second-article-info {
-    height: 75%;
+    height: 82%;
   }
   .third-article-info {
-    height: 95%;
+    height: 100%;
   }
 
   .third-article-title,
   .third-article-text,
   .publiched-at-third {
-    font-size: 94%;
+    font-size: 87%;
   }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1064px) {
   .second-article-info {
-    height: 80%;
+    height: 91%;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  .second-article-info {
+    height: 88%;
+  }
+  .secondary-article-title,
+  .secondary-article-text,
+  .publiched-at-secondary {
+    font-size: 120%;
   }
 }
 
@@ -30,17 +41,6 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  @media screen and (max-width: 954px) {
-    .second-article-info {
-      height: 80%;
-    }
-    .secondary-article-title,
-    .secondary-article-text,
-    .publiched-at-secondary {
-      font-size: 120%;
-    }
   }
 
   .tradition-text-container {
