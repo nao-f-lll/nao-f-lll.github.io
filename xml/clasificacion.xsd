@@ -1,0 +1,31 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="clasificacion">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="fila" maxOccurs="6" minOccurs="6">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:integer" name="posicion"></xs:element>
+            <xs:element name="equipo">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element type="xs:string" name="logo"></xs:element>
+                  <xs:element type="xs:string" name="nombre"></xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element type="xs:integer" name="partidos"></xs:element>
+            <xs:element type="xs:integer" name="victorias"></xs:element>
+            <xs:element type="xs:integer" name="derrotas"></xs:element>
+            <xs:element type="xs:integer" name="empates"></xs:element>
+            <xs:element type="xs:integer" name="puntos"></xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:integer" name="id"/>
+        </xs:complexType>  
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+</xs:schema>

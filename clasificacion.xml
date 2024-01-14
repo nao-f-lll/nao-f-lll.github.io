@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="xml/clasificacion.xsl" type="text/xsl"?>
+<clasificacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xml/clasificacion.xsd">
+  <fila id="1">
+  <posicion>1</posicion>
+  <equipo>
+    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
+    <nombre>All blacks</nombre>
+  </equipo>
+  <partidos>150</partidos>
+  <victorias>5</victorias>
+<derrotas>3</derrotas>
+<empates>1</empates>
+<puntos>215</puntos>
+</fila>
+<fila id="2">
+  <posicion>1</posicion>
+  <equipo>
+    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
+    <nombre>All blacks</nombre>
+  </equipo>
+  <partidos>15</partidos>
+  <victorias>5</victorias>
+<derrotas>3</derrotas>
+<empates>1</empates>
+<puntos>215</puntos>
+</fila>
+<fila id="3">
+  <posicion>1</posicion>
+  <equipo>
+    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
+    <nombre>All blacks</nombre>
+  </equipo>
+  <partidos>15</partidos>
+  <victorias>5</victorias>
+<derrotas>3</derrotas>
+<empates>1</empates>
+<puntos>215</puntos>
+</fila>
+<fila id="4">
+  <posicion>1</posicion>
+  <equipo>
+    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
+    <nombre>All blacks</nombre>
+  </equipo>
+  <partidos>15</partidos>
+  <victorias>5</victorias>
+<derrotas>3</derrotas>
+<empates>1</empates>
+<puntos>2150</puntos>
+</fila>
+<fila id="5">
+  <posicion>1</posicion>
+  <equipo>
+    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
+    <nombre>All blacks</nombre>
+  </equipo>
+  <partidos>15</partidos>
+  <victorias>5</victorias>
+<derrotas>3</derrotas>
+<empates>1</empates>
+<puntos>215</puntos>
+</fila>
+<fila id="6">
+  <posicion>1</posicion>
+  <equipo>
+    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
+    <nombre>All blacks</nombre>
+  </equipo>
+  <partidos>15</partidos>
+  <victorias>5</victorias>
+<derrotas>3</derrotas>
+<empates>1</empates>
+<puntos>215</puntos>
+</fila>
+</clasificacion>
