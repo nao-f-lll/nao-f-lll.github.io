@@ -1,0 +1,163 @@
+.team-container,
+.description-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.all-blacks::before {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url("../../media/Imagenes/teams/all_blacks_players.jpg");
+}
+
+.red-rose::before {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url("../../media/Imagenes/teams/red_rose_squad.avif");
+}
+
+.sakuras::before {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url("../../media/Imagenes/teams/sakuras-players.jpg");
+}
+
+.team-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.team-name {
+  margin-top: 60px;
+  font-size: 30px;
+  position: relative;
+}
+.team-image {
+  position: relative;
+  width: 70%;
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  background-size: cover;
+}
+
+.stats,
+.history {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.stats {
+  top: 150px;
+}
+.history {
+  top: 150px;
+  left: 200px;
+}
+
+.logo {
+  width: 70px;
+  background: transparent;
+  position: absolute;
+  top: 260px;
+}
+.logo-container {
+  position: relative;
+}
+
+.stats,
+.stats .column,
+.stats .row,
+.stats .header .title,
+.stats .row .column .value,
+.stats .row .column .type .history,
+.history .column,
+.history .row,
+.history .header .title,
+.history .row .column .value,
+.history .row .column .type {
+  background: transparent;
+}
+
+.history .row .column .value {
+  width: 200px;
+}
+.stats .column,
+.history .column {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 25px;
+  text-align: start;
+  justify-content: space-between;
+}
+
+.stats .row,
+.history .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats .header .title,
+.history .header .title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.stats .row .column .value,
+.history .row .column .value {
+  font-size: 18px;
+}
+
+.history .row .column .value {
+  margin-left: 20px;
+}
+
+.stats .row .column .type,
+.history .row .column .type {
+  color: #a1a8af;
+  font-size: 18px;
+}
+
+.vertical-line {
+  border-left: 1px solid white;
+  height: 1px;
+  width: 100px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 25px;
+  background-color: beige;
+}
+.description-container {
+  background-image: url("../../media/Imagenes/tradition/jersey-bg.jpg");
+  background-size: cover;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+}
+
+.description-container .text {
+  padding-top: 50px;
+  line-height: 2;
+}
+
+.description-container .preview,
+.description-container .title,
+.description-container .text {
+  padding-left: 40px;
+  padding-right: 40px;
+  background: transparent;
+}
+.description-container .preview,
+.description-container .title {
+  padding-top: 30px;
+  line-height: 1.5;
+}

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="xml/resultados.xsl" type="text/xsl"?>
 <resultados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xml/resultados.xsd">
-  
-  
-  
    <jornada id="1">
       <orden>uno</orden>
       <partido id="1">
          <logo_local>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
+                        <image>media/Imagenes/logos/all_blacks_badge.png</image>
          </logo_local>
          <puntos_local>20</puntos_local>
          <puntos_visitante>19</puntos_visitante>
@@ -20,7 +17,7 @@
          <estadio>Stade de France</estadio>
          <ciudad>&#x20; Paris</ciudad>
       </partido>
-      <partido >
+      <partido id="2">
          <logo_local>
             <image>media/Imagenes/logos/all_blacks_badge.png</image>
          </logo_local>
@@ -54,12 +51,12 @@
 
    <jornada id="2">
       <orden>dos</orden>
-      <partido id="1">
+      <partido id="3">
          <logo_local>
             <image>media/Imagenes/logos/all_blacks_badge.png</image>
          </logo_local>
          <puntos_local>20 </puntos_local>
-         <puntos_visitante>19</puntos_visitante>
+         <puntos_visitante>190</puntos_visitante>
          <logo_visitante>
             <image>media/Imagenes/logos/all_blacks_badge.png</image>
          </logo_visitante>
