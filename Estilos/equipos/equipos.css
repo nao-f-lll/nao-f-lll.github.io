@@ -17,7 +17,8 @@
 
 .red-rose::before {
   background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
-    url("../../media/Imagenes/teams/red_rose_squad.avif");
+    url("../../media/Imagenes/teams/red_rose_squad.avif"),
+    url("../../media/Imagenes/teams/red_rose_squad.png");
 }
 
 .sakuras::before {
@@ -25,6 +26,20 @@
     url("../../media/Imagenes/teams/sakuras-players.jpg");
 }
 
+.springboks::before {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url("../../media/Imagenes/teams/springboks-squad.jpg");
+}
+
+.wallabies::before {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url("../../media/Imagenes/teams/wallabies_sqaud.webp");
+}
+
+.shamrock::before {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url("../../media/Imagenes/teams/shamrock-squad.jpg");
+}
 .team-image::before {
   content: "";
   position: absolute;
@@ -76,11 +91,13 @@
 .stats,
 .stats .column,
 .stats .row,
+.stats .header,
 .stats .header .title,
 .stats .row .column .value,
 .stats .row .column .type .history,
 .history .column,
 .history .row,
+.history .header,
 .history .header .title,
 .history .row .column .value,
 .history .row .column .type {
@@ -160,4 +177,25 @@
 .description-container .title {
   padding-top: 30px;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 528px) {
+  .history {
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .stats-histroy-mobile-version {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stats,
+  .history {
+    left: 0;
+  }
+  .history {
+    top: 475px;
+  }
 }
