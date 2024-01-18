@@ -1,0 +1,257 @@
+* {
+  font-family: system-ui, sans-serif;
+}
+
+.single-page-header {
+  background-color: #999;
+  color: #fff;
+  background-size: cover;
+  padding-top: 70px;
+  height: 175px;
+}
+
+.single-page-header .title {
+  margin-bottom: 0;
+  font-size: 28px;
+}
+
+/* Estilos para la lista desplegable */
+.custom-select {
+  float: right;
+  width: 200px;
+  /* Ajusta el ancho teniendo en cuenta los márgenes */
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+/* Estilos para el contenedor del select */
+.select-container {
+  padding-right: 10%;
+  float: right;
+  overflow: hidden;
+  /* Evitar problemas de altura con elementos flotantes */
+  width: calc(100% - 40px);
+  /* Ajusta el ancho teniendo en cuenta los márgenes */
+  color: white;
+}
+
+.NewsArticleListPage #YearSelector {
+  width: 104px;
+  height: 36px;
+  margin-top: 30px;
+}
+
+/* Estilos para cada noticia */
+.news-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* Estilos para el contenedor del texto */
+.content {
+  flex: 1;
+  /* Ocupa todo el espacio disponible excepto la imagen */
+}
+
+/* Estilos para el contenedor del título y la fecha */
+.title-date {
+  margin-bottom: 10px;
+  /* Espacio entre el título y la fecha */
+}
+
+/* Estilos para el título */
+.title-date h2 {
+  font-size: 24px;
+  /* Tamaño de fuente más grande */
+}
+
+select {
+  height: 50px;
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin-bottom: 5px;
+  transition: border-color 200ms ease;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  white-space: nowrap;
+}
+
+/* Estilos para el enlace */
+.news-item a:hover {
+  text-decoration: underline;
+  /* Subrayado al pasar el ratón */
+  cursor: pointer;
+  /* Cambia el cursor al pasar el ratón */
+}
+
+/* Estilos para la fecha */
+.date {
+  font-size: 15px;
+  line-height: 30px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+/* Estilos para el resumen */
+.news-item .summary {
+  font-size: 18px;
+  /* Tamaño de fuente más grande */
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+/* Estilos para el enlace "Leer más" */
+.news-item .read-more {
+  color: #069be7;
+  /* Cambia el color del enlace */
+  text-decoration: underline;
+  /* Agrega subrayado al enlace */
+  font-size: 18px;
+  /* Tamaño de fuente más grande */
+}
+
+/* Estilos para la imagen */
+.news-item img {
+  width: 100%;
+  /* Ocupar todo el ancho del contenedor */
+  height: auto;
+  /* Mantener la proporción */
+  object-fit: cover;
+  /* Ajustar la imagen al contenedor manteniendo su relación de aspecto */
+}
+
+.image-container-mobile img {
+  display: block;
+  /* Asegurar que la imagen se muestre en dispositivos móviles */
+  width: 100%;
+  /* Ocupar todo el ancho disponible */
+  height: auto;
+  /* Mantener la proporción */
+}
+
+.image-container-mobile {
+  display: none;
+  width: 40vw;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-right: 5px;
+}
+
+summary {
+  padding-right: 20px;
+  max-width: 540px;
+}
+
+.news-articles-list li {
+  display: flex;
+  width: 100%;
+  padding: 25px 0;
+  border-top: 1px solid #4a4a4a;
+  overflow: auto;
+}
+
+.news-articles-list li:first-child {
+  border-top: none;
+}
+
+.narrow {
+  max-width: 1250px;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+}
+
+.single-page-header {
+  background-color: #999;
+  color: #fff;
+  background-size: cover;
+  padding-top: 70px;
+  height: 175px;
+}
+
+.NewsArticleListPage .news-title {
+  float: left;
+  margin-top: 30px;
+  line-height: 1;
+  font-family: system-ui, sans-serif;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  padding: 10px;
+  border-radius: 2px;
+  /* Bordes redondeados */
+}
+
+.pagination-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.pagination-item {
+  margin: 0 5px;
+  /* Espacio entre los elementos de la lista */
+}
+
+.pagination-link {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+  /* Texto blanco */
+  background-color: black;
+  /* Fondo negro */
+  border-radius: 2px;
+  /* Bordes redondeados */
+}
+
+.pagination-link.current {
+  background-color: #333;
+  /* Fondo más oscuro para la página actual */
+}
+
+.pagination-link:hover {
+  background-color: #555;
+  /* Cambio de color al pasar el ratón */
+}
+
+.pagination-icon {
+  margin-left: 5px;
+  /* Espacio entre el ícono y el texto */
+}
+
+.news-title {
+  margin-top: 2rem;
+}

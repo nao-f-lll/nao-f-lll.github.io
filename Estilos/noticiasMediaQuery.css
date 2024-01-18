@@ -1,0 +1,129 @@
+@media screen and (min-width: 768px) {
+  .single-page-header {
+    padding-top: 75px;
+    height: 200px;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .single-page-header .title {
+    font-size: 38px;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+  h1.title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .narrow {
+    width: calc(100% - 120px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .single-page-header {
+    padding-top: 75px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 769px) {
+  
+
+  .NewsArticleListPage .news-title {
+    float: left;
+    margin-top: 60px;
+    line-height: 1;
+    font-family: system-ui, sans-serif;
+  }
+
+  .NewsArticleListPage .narrow h2 {
+    margin: 60px 0 30px 0;
+  }
+
+  .NewsArticleListPage .narrow #YearSelector {
+    width: 159px;
+    height: 50px;
+  }
+
+  .NewsArticleListPage .narrow select {
+    font-size: 17px;
+    padding: 10px 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 577px) {
+  .NewsArticleListPage #YearSelector {
+    margin-top: 0;
+  }
+}
+
+/* Media query para pantallas más pequeñas (ejemplo: móviles) */
+@media screen and (max-width: 1000px) {
+  /* Cambiar a disposición en columna */
+  .news-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-container-desktop {
+    display: none;
+  }
+
+  .image-container-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  /* Estilos para cada sección en la columna */
+  .title-date {
+    text-align: center;
+  }
+
+  .title-date h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .title-date .date {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .news-item img {
+    width: 100%;
+    max-width: none;
+  }
+
+  .news-item .summary {
+    font-size: 18px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .news-item .read-more {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+  

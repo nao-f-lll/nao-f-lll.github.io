@@ -27,9 +27,9 @@ class HeaderComponent extends HTMLElement {
             </a>
           </li>
           <li>
-            <a class="nav-element" href="/noticias.html">
+            <a class="nav-element"  href="/noticias.html">
               Noticias
-              <span class="underline-secundario"></span>
+              <span class="underline-secundario noticias"></span>
             </a>
           </li>
           <li class="drop-menu-parent">
@@ -144,16 +144,26 @@ class HeaderComponent extends HTMLElement {
   
     `;
 
-    const currentPage = window.location.href;
+    const currentPageUrl = window.location.href;
+    var targetFolder = "/noticias/";
 
-    const paginaPrincipalAntigua = this.querySelector(".underline-principal");
-    const paginasSecundarias = this.querySelector(".teams-page");
+    if (currentPageUrl.includes(targetFolder)) {
+      const paginaPrincipalAntigua = this.querySelector(".underline-principal");
+      paginaPrincipalAntigua.classList.remove("underline-principal");
+      paginaPrincipalAntigua.classList.add("underline-secundario");
+      const paginaSecundaria = this.querySelector(".noticias");
+      paginaSecundaria.classList.remove("underline-secundario");
+      paginaSecundaria.classList.add("underline-principal");
+      noticias;
+    } else {
+      const paginaPrincipalAntigua = this.querySelector(".underline-principal");
+      const paginasSecundarias = this.querySelector(".teams-page");
+      paginaPrincipalAntigua.classList.remove("underline-principal");
+      paginaPrincipalAntigua.classList.add("underline-secundario");
 
-    paginaPrincipalAntigua.classList.remove("underline-principal");
-    paginaPrincipalAntigua.classList.add("underline-secundario");
-
-    paginasSecundarias.classList.remove("underline-secundario");
-    paginasSecundarias.classList.add("underline-principal");
+      paginasSecundarias.classList.remove("underline-secundario");
+      paginasSecundarias.classList.add("underline-principal");
+    }
   }
 }
 

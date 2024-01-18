@@ -1,0 +1,51 @@
+.wrapper {
+  width: min(300px, 100% - 3rem);
+  line-height: 1.5;
+  font-size: 1.125rem;
+  max-width: 40%;
+  overflow-x: auto;
+  margin-top: 30px;
+  border-radius: 0.3rem;
+}
+
+table {
+  border-collapse: collapse;
+  background: #323232;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 1rem;
+  background: #323232;
+}
+
+th,
+tr {
+  text-align: center;
+}
+
+th {
+  background: hsl(0 0% 50% / 0.5);
+}
+.history .title {
+  font-size: 1.5rem;
+  margin-left: 6.5%;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 60px;
+  background: transparent;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 3%;
+}
+
+.statdistics-container {
+  display: flex;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="media/Imagenes/logos/favicon.ico" />
+    <link rel="stylesheet" href="Estilos/general.css" />
+    <link rel="stylesheet" href="Estilos/header.css" />
+    <link rel="stylesheet" href="Estilos/headerMediaQuery.css" />
+    <link rel="stylesheet" href="Estilos/noticias.css" />
+    <link rel="stylesheet" href="Estilos/noticiasMediaQuery.css" />
+    <link rel="stylesheet" href="Estilos/footer.css" />
+    <link rel="stylesheet" href="Estilos/footerMediaQuery.css" />
+    <script type="module" src="scripts/headerTemplate.js"></script>
+    <script type="module" src="scripts/footerTemplate.js"></script>
+    <title>Noticias &#x21aa; worldrugby.org</title>
+</head>
+
+<body classs="NewsArticleListPage">
+
+    <rugby-header></rugby-header>
+
+
+    <main>
+
+        <header class="single-page-header">
+            <div class="narrow">
+                <h1 class="title">News</h1>
+
+                <h3 class="page-subtitle"></h3>
+
+            </div>
+        </header>
+
+        <div class="narrow">
+            <div class="section-title-container">
+                <h2 class="news-title">All News</h2>
+            </div>
+        </div>
+
+        <section class="narrow">
+            <div class="select-container">
+                <select id="YearSelector" class="custom-select">
+                    <option value="all">All years</option>
+
+                    <option id="select_option" value="2024">2024</option>
+
+                    <option id="select_option" value="2023">2023</option>
+
+                    <option id="select_option" value="2022">2022</option>
+
+                </select>
+            </div>
+
+
+
+            <ul class="news-articles-list">
+
+
+
+                <li>
+                    <div class="news-item">
+                        <div class="content">
+                            <a href="noticias/moana-pasifika-take-show-on-the-road-in-2024.html">
+                                <h3>Moana Pasifika take show on the road in 2024</h3>
+                            </a>
+
+                            <p class="date">6 December 2023</p>
+
+                            <div class="image-container-mobile">
+                                <img src="media\Imagenes\news\thumbnail\h_00100597.jpg" alt="h_00100597">
+
+                            </div>
+
+                            <p class="summary">Moana Pasifika will connect with more fans than ever when taking their
+                                home Super Rugby
+                                Pacific games to different venues next year.</p>
+                            <a href="noticias/moana-pasifika-take-show-on-the-road-in-2024.html" class="read-more">Read
+                                more</a>
+                        </div>
+
+
+                        <div class="image-container-desktop">
+                            <div class="img">
+                                <img src="media\Imagenes\news\thumbnail\h_00100597.jpg" alt="h_00100597">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+
+            <div class="pagination">
+                <ul class="pagination-list">
+                    <li class="pagination-item"><a href="#" class="pagination-link">1</a></li>
+                    <li class="pagination-item"><span class="pagination-link current">2</span></li>
+                    <li class="pagination-item"><a href="#" class="pagination-link">3</a></li>
+                    <li class="pagination-item"><a href="#" class="pagination-link">4</a></li>
+                    <li class="pagination-item"><a href="#" class="pagination-link">5</a></li>
+                    ...
+                    <li class="pagination-item"><a href="/news/year?start=1510" class="pagination-link">152</a></li>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+
+    <rugby-footer></rugby-footer>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/yearSelector.js"></script>
+</body>
+
+</html>
