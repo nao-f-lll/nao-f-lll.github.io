@@ -5,15 +5,11 @@
   }
 }
 
-
-
 @media screen and (min-width: 768px) {
   .single-page-header .title {
     font-size: 38px;
   }
 }
-
-
 
 @media screen and (min-width: 768px) {
   h1.title {
@@ -28,7 +24,6 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .narrow {
     width: calc(100% - 120px);
@@ -41,8 +36,6 @@
   }
 }
 @media screen and (min-width: 769px) {
-  
-
   .NewsArticleListPage .news-title {
     float: left;
     margin-top: 60px;
@@ -91,8 +84,21 @@
   .image-container-mobile {
     display: block;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
   }
 
+  .play-button {
+    top: 35%;
+    right: 42%;
+    width: 15%;
+  }
+
+  .play-icon {
+    padding: 20%;
+  }
   /* Estilos para cada sección en la columna */
   .title-date {
     text-align: center;
@@ -119,11 +125,9 @@
     margin: 0;
     padding: 0;
   }
- 
+
   .news-item .read-more {
     font-size: 18px;
     text-align: center;
   }
 }
-
-  
