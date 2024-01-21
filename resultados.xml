@@ -4,94 +4,125 @@
    <jornada id="1">
       <orden>uno</orden>
       <partido id="1">
-         <logo_local>
-                        <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_local>
-         <puntos_local>20</puntos_local>
-         <puntos_visitante>19</puntos_visitante>
-         <logo_visitante>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_visitante>
+         <equipo_local>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_local>
+         <equipo_visitante>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_visitante>
          <fecha>Lun 28 OCT</fecha>
          <hora>21:00</hora>
          <estadio>Stade de France</estadio>
          <ciudad>&#x20; Paris</ciudad>
       </partido>
       <partido id="2">
-         <logo_local>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_local>
-         <puntos_local>12</puntos_local>
-         <puntos_visitante>105</puntos_visitante>
-         <logo_visitante>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_visitante>
-         <fecha>Lun 28 OCT</fecha>
-         <hora>16:00</hora>
-         <estadio>Stade de France</estadio>
-         <ciudad>&#x20; tucson</ciudad>
-      </partido>
-      <partido id="3">
-         <logo_local>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_local>
-         <puntos_local>12</puntos_local>
-         <puntos_visitante>19</puntos_visitante>
-         <logo_visitante>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_visitante>
-         <fecha>Lun 24 OCT</fecha>
-         <hora>16:00</hora>
-         <estadio>Stade de France</estadio>
-         <ciudad>&#x20;Madrid</ciudad>
-      </partido>  
-   </jornada>
+         <equipo_local>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_local>
+         
 
-
-
-   <jornada id="2">
-      <orden>dos</orden>
-      <partido id="3">
-         <logo_local>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_local>
-         <puntos_local>20 </puntos_local>
-         <puntos_visitante>190</puntos_visitante>
-         <logo_visitante>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_visitante>
+         <equipo_visitante>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_visitante>
          <fecha>Lun 28 OCT</fecha>
          <hora>21:00</hora>
          <estadio>Stade de France</estadio>
          <ciudad>&#x20; Paris</ciudad>
       </partido>
-      <partido >
-         <logo_local>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_local>
-         <puntos_local> 12</puntos_local>
-         <puntos_visitante>105</puntos_visitante>
-         <logo_visitante>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_visitante>
+      <partido id="3">
+         <equipo_local>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_local>
+         
+         <equipo_visitante>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_visitante>
          <fecha>Lun 28 OCT</fecha>
-         <hora>16:00</hora>
+         <hora>21:00</hora>
          <estadio>Stade de France</estadio>
-         <ciudad>&#x20; tucson</ciudad>
+         <ciudad>&#x20; Paris</ciudad>
+      </partido>
+   </jornada>
+
+
+
+   <jornada id="1">
+      <orden>uno</orden>
+      <partido id="1">
+         <equipo_local>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_local>
+         
+
+         <equipo_visitante>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_visitante>
+         <fecha>Lun 28 OCT</fecha>
+         <hora>21:00</hora>
+         <estadio>Stade de France</estadio>
+         <ciudad>&#x20; Paris</ciudad>
+      </partido>
+      <partido id="2">
+         <equipo_local>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_local>
+         
+
+         <equipo_visitante>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_visitante>
+         <fecha>Lun 28 OCT</fecha>
+         <hora>21:00</hora>
+         <estadio>Stade de France</estadio>
+         <ciudad>&#x20; Paris</ciudad>
       </partido>
       <partido id="3">
-         <logo_local>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_local>
-         <puntos_local>12</puntos_local>
-         <puntos_visitante>19</puntos_visitante>
-         <logo_visitante>
-            <image>media/Imagenes/logos/all_blacks_badge.png</image>
-         </logo_visitante>
-         <fecha>Lun 24 OCT</fecha>
-         <hora>16:00</hora>
+         <equipo_local>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_local>
+         <equipo_visitante>
+            <logo>
+               <image>media/Imagenes/logos/all_blacks_badge.png</image>
+            </logo>
+            <puntos>20</puntos>
+         </equipo_visitante>
+         <fecha>Lun 28 OCT</fecha>
+         <hora>21:00</hora>
          <estadio>Stade de France</estadio>
-         <ciudad>&#x20;Madrid</ciudad>
-      </partido>  
+         <ciudad>&#x20; Paris</ciudad>
+      </partido>
    </jornada>
 </resultados>

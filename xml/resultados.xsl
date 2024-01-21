@@ -38,17 +38,17 @@
           <div class="left-part-container">
             <img
               class="team-logo"
-              src="{logo_local/image}"
+              src="{equipo_local/logo/image}"
               alt="all_blacks_badge"
             />
             <div class="scores">
-              <p><xsl:value-of select="puntos_local"></xsl:value-of></p>
+              <p><xsl:value-of select="equipo_local/puntos"></xsl:value-of></p>
               <p>-</p>
-              <p><xsl:value-of select="puntos_visitante"></xsl:value-of></p>
+              <p><xsl:value-of select="equipo_visitante/puntos"></xsl:value-of></p>
             </div>
             <img
               class="team-logo"
-              src="{logo_visitante/image}"
+              src="{equipo_visitante/logo/image}"
               alt="south_Africa_national_rugby_union_team"
             />
           </div>

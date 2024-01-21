@@ -41,7 +41,12 @@
           <th class="ties">Empates</th>
           <th>Puntos</th>
         </tr>
+       
         <xsl:for-each select = "fila">
+          <xsl:sort select="victorias" order="descending" data-type="number"/>
+          <xsl:sort select="empates" order="descending" data-type="number"/>
+          <xsl:sort select="derrotas" order="ascending" data-type="number"/>        
+          <xsl:sort select="puntos" order="descending" data-type="number"/>
         <tr>
           <td data-cell="position"><xsl:value-of select="posicion"></xsl:value-of> </td>
           <td data-cell="logo">

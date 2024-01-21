@@ -8,7 +8,7 @@
     <nombre>All blacks</nombre>
   </equipo>
   <partidos>150</partidos>
-  <victorias>5</victorias>
+  <victorias>52</victorias>
 <derrotas>3</derrotas>
 <empates>1</empates>
 <puntos>215</puntos>
@@ -17,12 +17,12 @@
   <posicion>1</posicion>
   <equipo>
     <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
-    <nombre>All blacks</nombre>
+    <nombre>Springboks</nombre>
   </equipo>
   <partidos>15</partidos>
-  <victorias>5</victorias>
+  <victorias>8</victorias>
 <derrotas>3</derrotas>
-<empates>1</empates>
+<empates>12</empates>
 <puntos>215</puntos>
 </fila>
 <fila id="3">
@@ -31,9 +31,9 @@
     <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
     <nombre>All blacks</nombre>
   </equipo>
-  <partidos>15</partidos>
-  <victorias>5</victorias>
-<derrotas>3</derrotas>
+  <partidos>52</partidos>
+  <victorias>95</victorias>
+<derrotas>34</derrotas>
 <empates>1</empates>
 <puntos>215</puntos>
 </fila>
@@ -43,9 +43,9 @@
     <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
     <nombre>All blacks</nombre>
   </equipo>
-  <partidos>15</partidos>
-  <victorias>5</victorias>
-<derrotas>3</derrotas>
+  <partidos>150</partidos>
+  <victorias>52</victorias>
+<derrotas>36</derrotas>
 <empates>1</empates>
 <puntos>2150</puntos>
 </fila>
@@ -56,10 +56,10 @@
     <nombre>All blacks</nombre>
   </equipo>
   <partidos>15</partidos>
-  <victorias>5</victorias>
-<derrotas>3</derrotas>
+  <victorias>15</victorias>
+<derrotas>34</derrotas>
 <empates>1</empates>
-<puntos>215</puntos>
+<puntos>235</puntos>
 </fila>
 <fila id="6">
   <posicion>1</posicion>
@@ -71,6 +71,6 @@
   <victorias>5</victorias>
 <derrotas>3</derrotas>
 <empates>1</empates>
-<puntos>215</puntos>
+<puntos>315</puntos>
 </fila>
 </clasificacion>

@@ -9,22 +9,37 @@
               <xs:element name="partido" maxOccurs="3" minOccurs="0">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="logo_local">
+                    <xs:element name="equipo_local">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element type="xs:string" name="image"/>
+                          <xs:element name="logo">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element name="image"/>
+                            </xs:sequence>
+                          </xs:complexType>
+                         </xs:element>
+                          <xs:element name="puntos"/>
                         </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element type="xs:integer" name="puntos_local"/>
-                    <xs:element type="xs:integer" name="puntos_visitante"/>
-                    <xs:element name="logo_visitante">
+                        </xs:complexType>
+                      </xs:element>
+                 
+                      <xs:element name="equipo_visitante">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element type="xs:string" name="image"/>
+                          <xs:element name="logo">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element name="image"/>
+                            </xs:sequence>
+                          </xs:complexType>
+                         </xs:element>
+                          <xs:element name="puntos"/>
                         </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
+                        </xs:complexType>
+                      </xs:element>
+                 
+                
                     <xs:element type="xs:string" name="fecha"/>
                     <xs:element type="xs:string" name="hora"/>
                     <xs:element type="xs:string" name="estadio"/>
