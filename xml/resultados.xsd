@@ -19,7 +19,7 @@
                             </xs:sequence>
                           </xs:complexType>
                          </xs:element>
-                          <xs:element name="puntos"/>
+                          <xs:element type="xs:integer" name="puntos"/>
                         </xs:sequence>
                         </xs:complexType>
                       </xs:element>
@@ -34,7 +34,7 @@
                             </xs:sequence>
                           </xs:complexType>
                          </xs:element>
-                          <xs:element name="puntos"/>
+                          <xs:element type="xs:integer"  name="puntos"/>
                         </xs:sequence>
                         </xs:complexType>
                       </xs:element>
