@@ -1,76 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="xml/clasificacion.xsl" type="text/xsl"?>
 <clasificacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xml/clasificacion.xsd">
-  <fila id="1">
-  <posicion>1</posicion>
-  <equipo>
-    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
-    <nombre>All blacks</nombre>
-  </equipo>
-  <partidos>150</partidos>
-  <victorias>52</victorias>
+
+<fila id="1">
+ <posicion>1</posicion>
+<equipo>
+<logo>media/Imagenes/logos/red_rose_logo.png</logo>
+<nombre>RedRose</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>7</victorias>
 <derrotas>3</derrotas>
-<empates>1</empates>
-<puntos>215</puntos>
+<empates>0</empates>
+<puntos>595</puntos>
 </fila>
 <fila id="2">
-  <posicion>1</posicion>
-  <equipo>
-    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
-    <nombre>Springboks</nombre>
-  </equipo>
-  <partidos>15</partidos>
-  <victorias>8</victorias>
+ <posicion>2</posicion>
+<equipo>
+<logo>media/Imagenes/logos/wallabies-logo.png</logo>
+<nombre>Wallabies</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>6</victorias>
 <derrotas>3</derrotas>
-<empates>12</empates>
-<puntos>215</puntos>
+<empates>1</empates>
+<puntos>605</puntos>
 </fila>
 <fila id="3">
-  <posicion>1</posicion>
-  <equipo>
-    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
-    <nombre>All blacks</nombre>
-  </equipo>
-  <partidos>52</partidos>
-  <victorias>95</victorias>
-<derrotas>34</derrotas>
-<empates>1</empates>
-<puntos>215</puntos>
+ <posicion>3</posicion>
+<equipo>
+<logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
+<nombre>Springboks</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>6</victorias>
+<derrotas>4</derrotas>
+<empates>0</empates>
+<puntos>511</puntos>
 </fila>
 <fila id="4">
-  <posicion>1</posicion>
-  <equipo>
-    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
-    <nombre>All blacks</nombre>
-  </equipo>
-  <partidos>150</partidos>
-  <victorias>52</victorias>
-<derrotas>36</derrotas>
+ <posicion>4</posicion>
+<equipo>
+<logo>media/Imagenes/logos/all_blacks_badge_white.png</logo>
+<nombre>AllBlacks</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>4</victorias>
+<derrotas>5</derrotas>
 <empates>1</empates>
-<puntos>2150</puntos>
+<puntos>485</puntos>
 </fila>
 <fila id="5">
-  <posicion>1</posicion>
-  <equipo>
-    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
-    <nombre>All blacks</nombre>
-  </equipo>
-  <partidos>15</partidos>
-  <victorias>15</victorias>
-<derrotas>34</derrotas>
-<empates>1</empates>
-<puntos>235</puntos>
+ <posicion>5</posicion>
+<equipo>
+<logo>media/Imagenes/logos/sakuras-logo.png</logo>
+<nombre>Sakuras</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>3</victorias>
+<derrotas>7</derrotas>
+<empates>0</empates>
+<puntos>463</puntos>
 </fila>
 <fila id="6">
-  <posicion>1</posicion>
-  <equipo>
-    <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
-    <nombre>All blacks</nombre>
-  </equipo>
-  <partidos>15</partidos>
-  <victorias>5</victorias>
-<derrotas>3</derrotas>
-<empates>1</empates>
-<puntos>315</puntos>
+ <posicion>6</posicion>
+<equipo>
+<logo>media/Imagenes/logos/shamrock-logo.png</logo>
+<nombre>Shamrock</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>3</victorias>
+<derrotas>7</derrotas>
+<empates>0</empates>
+<puntos>434</puntos>
 </fila>
 </clasificacion>
+
