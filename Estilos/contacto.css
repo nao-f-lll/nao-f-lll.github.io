@@ -1,0 +1,105 @@
+.direction-title {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.main-conatiner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 290px);
+  margin-top: 20px;
+}
+.direction-container {
+  flex: 1;
+}
+
+.direction-text {
+  line-height: 1.5rem;
+}
+
+.directions {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+form {
+  width: 90%;
+  max-width: 950px;
+}
+
+.form-conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  background: white;
+  font-size: 15px;
+}
+textarea {
+  resize: none;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+  color: black;
+  background: transparent;
+  transition: 0.2s;
+}
+
+.submit-button {
+  padding: 10px 0;
+  color: #fff;
+  background-color: #069be7;
+  border: 1px solid #069be7;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.submit-button:hover {
+  background-color: #0582c2;
+  border-color: #0582c2;
+}
+
+.icon {
+  background: transparent;
+  margin-right: 5px;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+  color: white;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info .input-group {
+  flex-basis: 48%;
+}
