@@ -5,29 +5,17 @@
 <fila id="1">
  <posicion>1</posicion>
 <equipo>
-<logo>media/Imagenes/logos/red_rose_logo.png</logo>
-<nombre>RedRose</nombre>
+<logo>media/Imagenes/logos/shamrock-logo.png</logo>
+<nombre>Shamrock</nombre>
 </equipo>
 <partidos>10</partidos>
-<victorias>7</victorias>
-<derrotas>3</derrotas>
+<victorias>8</victorias>
+<derrotas>2</derrotas>
 <empates>0</empates>
-<puntos>595</puntos>
+<puntos>567</puntos>
 </fila>
 <fila id="2">
  <posicion>2</posicion>
-<equipo>
-<logo>media/Imagenes/logos/wallabies-logo.png</logo>
-<nombre>Wallabies</nombre>
-</equipo>
-<partidos>10</partidos>
-<victorias>6</victorias>
-<derrotas>3</derrotas>
-<empates>1</empates>
-<puntos>605</puntos>
-</fila>
-<fila id="3">
- <posicion>3</posicion>
 <equipo>
 <logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
 <nombre>Springboks</nombre>
@@ -36,22 +24,46 @@
 <victorias>6</victorias>
 <derrotas>4</derrotas>
 <empates>0</empates>
-<puntos>511</puntos>
+<puntos>552</puntos>
 </fila>
-<fila id="4">
- <posicion>4</posicion>
+<fila id="3">
+ <posicion>3</posicion>
 <equipo>
 <logo>media/Imagenes/logos/all_blacks_badge_white.png</logo>
 <nombre>AllBlacks</nombre>
 </equipo>
 <partidos>10</partidos>
-<victorias>4</victorias>
+<victorias>5</victorias>
 <derrotas>5</derrotas>
-<empates>1</empates>
-<puntos>485</puntos>
+<empates>0</empates>
+<puntos>523</puntos>
+</fila>
+<fila id="4">
+ <posicion>4</posicion>
+<equipo>
+<logo>media/Imagenes/logos/red_rose_logo.png</logo>
+<nombre>RedRose</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>4</victorias>
+<derrotas>6</derrotas>
+<empates>0</empates>
+<puntos>529</puntos>
 </fila>
 <fila id="5">
  <posicion>5</posicion>
+<equipo>
+<logo>media/Imagenes/logos/wallabies-logo.png</logo>
+<nombre>Wallabies</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>4</victorias>
+<derrotas>6</derrotas>
+<empates>0</empates>
+<puntos>469</puntos>
+</fila>
+<fila id="6">
+ <posicion>6</posicion>
 <equipo>
 <logo>media/Imagenes/logos/sakuras-logo.png</logo>
 <nombre>Sakuras</nombre>
@@ -60,19 +72,7 @@
 <victorias>3</victorias>
 <derrotas>7</derrotas>
 <empates>0</empates>
-<puntos>463</puntos>
-</fila>
-<fila id="6">
- <posicion>6</posicion>
-<equipo>
-<logo>media/Imagenes/logos/shamrock-logo.png</logo>
-<nombre>Shamrock</nombre>
-</equipo>
-<partidos>10</partidos>
-<victorias>3</victorias>
-<derrotas>7</derrotas>
-<empates>0</empates>
-<puntos>434</puntos>
+<puntos>387</puntos>
 </fila>
 </clasificacion>
 
