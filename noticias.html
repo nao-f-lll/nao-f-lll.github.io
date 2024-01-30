@@ -17,28 +17,30 @@
     <link rel="stylesheet" href="Estilos/footerMediaQuery.css" />
     <script type="module" src="scripts/headerTemplate.js"></script>
     <script type="module" src="scripts/footerTemplate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <title>Noticias &#x21aa; worldrugby.org</title>
   </head>
 
-  <body classs="NewsArticleListPage">
+  <body class="NewsArticleListPage">
     <rugby-header></rugby-header>
 
-    <div class="top-section-container">
-      <div class="text-container">
-        <h1 class="title">News</h1>
-      </div>
-    </div>
     <main>
+      <div class="top-section-container">
+        <div class="text-container">
+          <h1 class="title narrow">Noticias</h1>
+        </div>
+      </div>
+
       <div class="narrow">
-        <div class="section-title-container">
-          <h2 class="news-title">All News</h2>
+        <div class="article-title-container">
+          <h2 class="news-title">Todas las noticias</h2>
         </div>
       </div>
 
       <section class="narrow">
         <div class="select-container">
           <select id="YearSelector" class="custom-select">
-            <option value="all">All years</option>
+            <option value="all">Todos los años</option>
 
             <option id="select_option" value="2024">2024</option>
 
@@ -52,13 +54,14 @@
           <li>
             <div class="news-item">
               <div class="content">
-                <a
-                  href="noticias/cuando-springboks-supo-que-ganaria-la-liga.html"
-                >
-                  <h3>EL MOMENTO EN QUE SPRINGBOKS SUPO QUE GANARÍA LA LIGA</h3>
+                <a href="noticias/ESTuipulotu to lead the Blues in 2024.html">
+                  <h3>Tuipulotu liderará a los Blues en 2024</h3>
                 </a>
-
-                <p class="date">16 JANUARY 2024</p>
+                <div class="date">
+                  <time datetime="2024-01-16 11:03:29"
+                    >16 DE ENERO DE 2024</time
+                  >
+                </div>
 
                 <div class="image-container-mobile">
                   <img
@@ -68,27 +71,23 @@
                 </div>
 
                 <p class="summary">
-                  All Blacks lock Patrick Tuipulotu will be the Blues captain
-                  for the 2024 Super Rugby Pacific season. Tuipulotu, who led
-                  the side in 2019-21, said the captaincy was something he
-                  didn't take lightly.
+                  El bloqueo de los All Blacks, Patrick Tuipulotu, será el
+                  capitán de los Blues para la temporada 2024 de Super Rugby
+                  Pacific. Tuipulotu, quien lideró al equipo en 2019-21, dijo
+                  que la capitanía era algo que no se tomaba a la ligera.
                 </p>
                 <a
-                  href="noticias/cuando-springboks-supo-que-ganaria-la-liga.html"
+                  href="noticias/ESTuipulotu to lead the Blues in 2024.html"
                   class="read-more"
-                  >Read more</a
+                  >Leer más</a
                 >
               </div>
 
               <div class="image-container-desktop">
-                <a
-                  href="noticias/cuando-springboks-supo-que-ganaria-la-liga.html"
-                >
-                  <img
-                    src="media\Imagenes\news\thumbnail\Patrick.jpg"
-                    alt="Patrick"
-                  />
-                </a>
+                <img
+                  src="media\Imagenes\news\thumbnail\Patrick.jpg"
+                  alt="Patrick"
+                />
               </div>
             </div>
           </li>
@@ -96,38 +95,42 @@
           <li>
             <div class="news-item">
               <div class="content">
-                <a href="noticias\tom-franklin.html">
+                <a href="noticias/EStom-franklin.html">
                   <div class="img">
                     <h3>
-                      Former Highlander Tom Franklin Signs with the Western
-                      Force
+                      El ex segunda linea de Highlander Tom Franklin firma con
+                      Western Force
                     </h3>
                   </div>
                 </a>
-
-                <p class="date">12 JANUARY 2024</p>
+                <div class="date">
+                  <time datetime="2024-01-12 11:03:29"
+                    >12 DE ENERO DE 2024</time
+                  >
+                </div>
 
                 <div class="image-container-mobile">
                   <img
-                    src="media\Imagenes\news\thumbnail\h_00104919.jpg"
-                    alt="h_00104919"
+                    src="media\Imagenes\news\thumbnail\tom_franklin.jpg"
+                    alt="tom_franklin"
                   />
                 </div>
 
                 <p class="summary">
-                  Former Highlander and Māori All Blacks lock Tom Franklin will
-                  return to DHL Super Rugby Pacific with the Force in 2024.
+                  El ex segunda linea de Highlander y Māori All Blacks, Tom
+                  Franklin, regresará a DHL Super Rugby Pacific con Force en
+                  2024.
                 </p>
-                <a href="noticias\tom-franklin.html" class="read-more"
-                  >Read more</a
+                <a href="noticias/EStom-franklin.html" class="read-more"
+                  >Leer más</a
                 >
               </div>
 
               <div class="image-container-desktop">
                 <div class="img">
                   <img
-                    src="media\Imagenes\news\thumbnail\h_00104919.jpg"
-                    alt="h_00104919"
+                    src="media\Imagenes\news\thumbnail\tom_franklin.jpg"
+                    alt="tom_franklin"
                   />
                 </div>
               </div>
@@ -137,11 +140,14 @@
           <li>
             <div class="news-item">
               <div class="content">
-                <a href="noticias\Ardie-Savea.html">
-                  <h3>Ardie Savea wins top prize at ASB Rugby Awards</h3>
+                <a href="noticias/ESArdie-Savea.html">
+                  <h3>
+                    Ardie Savea gana el primer premio en los ASB Rugby Awards
+                  </h3>
                 </a>
-                <p class="date">14 December 2023</p>
-
+                <div class="date">
+                  <time datetime="2023-12-14 11:03:29">14 DICIEMBRE 2023</time>
+                </div>
                 <div class="image-container-mobile">
                   <img
                     src="media\Imagenes\news\thumbnail\Ardie-Savea-v4__FocusFillWyItMC4xMiIsIi0wLjM1IiwzMjAsMjAwXQ.jpg"
@@ -149,12 +155,13 @@
                   />
                 </div>
                 <p class="summary">
-                  A month after claiming World Rugby’s biggest prize, Ardie
-                  Savea has claimed the Kelvin R Tremain Memorial Player of the
-                  Year at this evening’s ASB Rugby Awards.
+                  Un mes después de reclamar el premio más importante de World
+                  Rugby, Ardie Savea obtuvo el premio al Jugador del Año en
+                  Kelvin R Tremain Memorial en los ASB Rugby Awards de esta
+                  noche.
                 </p>
-                <a href="noticias\Ardie-Savea.html" class="read-more"
-                  >Read more</a
+                <a href="noticias/ESArdie-Savea.html" class="read-more"
+                  >Leer más</a
                 >
               </div>
               <div class="image-container-desktop">
@@ -170,37 +177,39 @@
             <div class="news-item">
               <div class="content">
                 <a
-                  href="noticias/jono-gibbes-back-on-deck-with-the-chiefs.html"
+                  href="noticias/ESjono-gibbes-back-on-deck-with-the-chiefs.html"
                 >
-                  <h3>Jono Gibbes back on deck with the Chiefs</h3>
+                  <h3>Jono Gibbes vuelve a la carga con los Chiefs</h3>
                 </a>
-
-                <p class="date">14 December 2023</p>
+                <div class="date">
+                  <time datetime="2023-12-14 11:03:29">14 DICIEMBRE 2023</time>
+                </div>
 
                 <div class="image-container-mobile">
                   <img
-                    src="media\Imagenes\news\thumbnail\h_00067556-1.jpg"
-                    alt="h_00067556-1"
+                    src="media\Imagenes\news\thumbnail\jono_gibbes.jpg"
+                    alt="jono_gibbes"
                   />
                 </div>
 
                 <p class="summary">
-                  Peripatetic former All Black lock Jono Gibbes has joined the
-                  Chiefs for Super Rugby Pacific next year as a resource coach
-                  and coach of the Chiefs' Development XV.
+                  El peripatético ex All Black Lock Jono Gibbes se unirá a los
+                  Chiefs para el Super Rugby Pacific el próximo año como
+                  entrenador de recursos y entrenador del Chiefs' Development
+                  XV.
                 </p>
                 <a
-                  href="noticias/jono-gibbes-back-on-deck-with-the-chiefs.html"
+                  href="noticias/ESjono-gibbes-back-on-deck-with-the-chiefs.html"
                   class="read-more"
-                  >Read more</a
+                  >Leer más</a
                 >
               </div>
 
               <div class="image-container-desktop">
                 <div class="img">
                   <img
-                    src="media\Imagenes\news\thumbnail\h_00067556-1.jpg"
-                    alt="h_00067556-1"
+                    src="media\Imagenes\news\thumbnail\jono_gibbes.jpg"
+                    alt="jono_gibbes"
                   />
                 </div>
               </div>
@@ -211,41 +220,44 @@
             <div class="news-item">
               <div class="content">
                 <a
-                  href="noticias/recovery-rivalry-and-redemption-tj-perenaras-comeback-story.html"
+                  href="noticias/ESrecovery-rivalry-and-redemption-tj-perenaras-comeback-story.html"
                 >
                   <h3>
-                    Recovery, Rivalry, and Redemption: TJ Perenara's Comeback
-                    Story
+                    Recuperación, rivalidad y redención: la historia del regreso
+                    de TJ Perenara
                   </h3>
                 </a>
-
-                <p class="date">13 December 2023</p>
+                <div class="date">
+                  <time datetime="2023-12-13 11:03:29"
+                    >13 DE DICIEMBRE DE 2023</time
+                  >
+                </div>
 
                 <div class="image-container-mobile">
                   <img
-                    src="media\Imagenes\news\thumbnail\h_00083895.jpg"
-                    alt="h_00067556-1"
+                    src="media\Imagenes\news\thumbnail\Perenara.jpg"
+                    alt="Perenara"
                   />
                 </div>
 
                 <p class="summary">
-                  Recovering from the Achilles tendon injury he suffered in the
-                  25-25 draw with England at the end of 2022, halfback TJ
-                  Perenara has signalled that regaining his All Blacks jersey is
-                  his long-term goal.
+                  Recuperándose de la lesión en el tendón de Aquiles que sufrió
+                  en el empate 25-25 con Inglaterra a finales de 2022, el
+                  corredor TJ Perenara ha señalado que recuperar su camiseta de
+                  los All Blacks es su objetivo a largo plazo.
                 </p>
                 <a
-                  href="noticias/recovery-rivalry-and-redemption-tj-perenaras-comeback-story.html"
+                  href="noticias/ESrecovery-rivalry-and-redemption-tj-perenaras-comeback-story.html"
                   class="read-more"
-                  >Read more</a
+                  >Leer más</a
                 >
               </div>
 
               <div class="image-container-desktop">
                 <div class="img">
                   <img
-                    src="media\Imagenes\news\thumbnail\h_00083895.jpg"
-                    alt="h_00067556-1"
+                    src="media\Imagenes\news\thumbnail\Perenara.jpg"
+                    alt="Perenara"
                   />
                 </div>
               </div>
@@ -256,12 +268,17 @@
             <div class="news-item">
               <div class="content">
                 <a
-                  href="noticias/lakai-plots-return-to-field-for-hurricanes.html"
+                  href="noticias/ESlakai-plots-return-to-field-for-hurricanes.html"
                 >
-                  <h3>Lakai plots return to field for Hurricanes</h3>
+                  <h3>
+                    Los planes de Lakai regresan al campo para los huracanes
+                  </h3>
                 </a>
-
-                <p class="date">12 December 2023</p>
+                <div class="date">
+                  <time datetime="2023-12-12 11:03:29"
+                    >12 DE DICIEMBRE DE 2023
+                  </time>
+                </div>
 
                 <div class="image-container-mobile">
                   <img
@@ -271,13 +288,14 @@
                 </div>
 
                 <p class="summary">
-                  Emerging Hurricanes loose forward Peter Lakai aims to hit the
-                  ground running when pre-season training resumes in January.
+                  El delantero suelto de los Hurricanes emergentes, Peter Lakai,
+                  pretende empezar a trabajar cuando se reanude el entrenamiento
+                  de pretemporada en enero.
                 </p>
                 <a
-                  href="noticias/lakai-plots-return-to-field-for-hurricanes.html"
+                  href="noticias/ESlakai-plots-return-to-field-for-hurricanes.html"
                   class="read-more"
-                  >Read more</a
+                  >Leer más</a
                 >
               </div>
 
@@ -295,11 +313,16 @@
           <li>
             <div class="news-item">
               <div class="content">
-                <a href="noticias/ratima-eyes-opportunity-in-2024-season.html">
-                  <h3>Ratima eyes opportunity in 2024 season</h3>
+                <a
+                  href="noticias/ESratima-eyes-opportunity-in-2024-season.html"
+                >
+                  <h3>Ratima ve una oportunidad en la temporada 2024</h3>
                 </a>
-
-                <p class="date">12 December 2023</p>
+                <div class="date">
+                  <time datetime="2023-12-12 11:03:29"
+                    >12 DE DICIEMBRE DE 2023</time
+                  >
+                </div>
 
                 <div class="image-container-mobile">
                   <img
@@ -309,14 +332,14 @@
                 </div>
 
                 <p class="summary">
-                  Rising Chiefs halfback Cortez Ratima will have plenty of
-                  incentives in DHL Super Rugby Pacific game preparation in
-                  2024.
+                  El corredor de los Rising Chiefs, Cortez Ratima, tendrá muchos
+                  incentivos en la preparación del juego DHL Super Rugby Pacific
+                  en 2024.
                 </p>
                 <a
-                  href="noticias/ratima-eyes-opportunity-in-2024-season.html"
+                  href="noticias/ESratima-eyes-opportunity-in-2024-season.html"
                   class="read-more"
-                  >Read more</a
+                  >Leer más</a
                 >
               </div>
 
@@ -335,14 +358,17 @@
             <div class="news-item">
               <div class="content">
                 <a
-                  href="noticias/millar-keen-to-make-up-for-lost-time-at-the-highlanders.html"
+                  href="noticias/ESmillar-keen-to-make-up-for-lost-time-at-the-highlanders.html"
                 >
                   <h3>
-                    Millar keen to make up for lost time at the Highlanders
+                    Millar quiere recuperar el tiempo perdido en los Highlanders
                   </h3>
                 </a>
-
-                <p class="date">12 December 2023</p>
+                <div class="date">
+                  <time datetime="2023-12-12 11:03:29"
+                    >12 DE DICIEMBRE DE 2023
+                  </time>
+                </div>
 
                 <div class="image-container-mobile">
                   <img
@@ -352,15 +378,15 @@
                 </div>
 
                 <p class="summary">
-                  Highlanders and Otago first five-eighths Cameron Millar has
-                  had some early lessons in being patient in his rugby career,
-                  but heading into DHL Super Rugby Pacific in 2024, he is keen
-                  to make up for lost time.
+                  Highlanders y Otago primeros cinco octavos Cameron Millar ha
+                  recibido algunas lecciones tempranas sobre cómo ser paciente
+                  en su carrera de rugby, pero de cara al DHL Super Rugby
+                  Pacific en 2024, está ansioso por recuperar el tiempo perdido.
                 </p>
                 <a
-                  href="noticias/millar-keen-to-make-up-for-lost-time-at-the-highlanders.html"
+                  href="noticias/ESESmillar-keen-to-make-up-for-lost-time-at-the-highlanders.html"
                   class="read-more"
-                  >Read more</a
+                  >Leer más</a
                 >
               </div>
 
@@ -378,11 +404,14 @@
           <li>
             <div class="news-item">
               <div class="content">
-                <a href="noticias/sam-darry.html">
-                  <h3>Sam Darry builds Championship dreams with the Blues</h3>
+                <a href="noticias/ESsam-darry.html">
+                  <h3>
+                    Sam Darry construye sueños de campeonato con los Blues
+                  </h3>
                 </a>
-
-                <p class="date">11 December 2023</p>
+                <div class="date">
+                  <time datetime="2023-12-11 11:03:29">11 December 2023</time>
+                </div>
 
                 <div class="image-container-mobile">
                   <img
@@ -392,13 +421,13 @@
                 </div>
 
                 <p class="summary">
-                  Blues lock Sam Darry is looking to build on his already
-                  impressive start in Super Rugby Pacific and be part of an
-                  Auckland-based unit that consistently plays to its ability in
-                  2024.
+                  El segunda linea de los Blues, Sam Darry, busca aprovechar su
+                  ya impresionante comienzo en el Super Rugby Pacific y ser
+                  parte de una unidad con sede en Auckland que juegue
+                  consistentemente a su capacidad en 2024.
                 </p>
-                <a href="noticias/sam-darry.html" class="read-more"
-                  >Read more</a
+                <a href="noticias/ESsam-darry.html" class="read-more"
+                  >Leer más</a
                 >
               </div>
 
@@ -414,28 +443,13 @@
           </li>
         </ul>
 
-        <div class="pagination">
-          <ul class="pagination-list">
-            <li class="pagination-item">
-              <span class="pagination-link current">1</span>
-            </li>
-            <li class="pagination-item">
-              <a href="#" class="pagination-link">2</a>
-            </li>
-            <li class="pagination-item">
-              <a href="#" class="pagination-link">3</a>
-            </li>
-            <li class="pagination-item">
-              <a href="#" class="pagination-link">4</a>
-            </li>
-            <li class="pagination-item">
-              <a href="#" class="pagination-link">5</a>
-            </li>
-            ...
-            <li class="pagination-item">
-              <a href="/news/year?start=1510" class="pagination-link">152</a>
-            </li>
-          </ul>
+        <div class="button-container">
+          <button id="cargarMasBtn" onclick="cargarMasNoticias()">
+            Cargar más
+          </button>
+          <button id="volverArribaBtn" onclick="volverArriba()">
+            Volver arriba
+          </button>
         </div>
       </section>
     </main>

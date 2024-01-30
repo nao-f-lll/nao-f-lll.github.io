@@ -2,12 +2,23 @@
     font-family: system-ui, sans-serif;
 }
 
+.title {
+    text-align: left;
+}
+
+.NewsArticlePage .top-section-container .article-title-container {
+    height: 180px;
+    min-height: unset;
+    background: transparent;
+  }
+  
 .article-title-container {
     display: flex;
     padding: 25px 0;
     height: 180px;
     min-height: unset;
     background-color: #999;
+    min-width: 1100px;
 }
 
 .NewsArticlePage .article-title-container {
@@ -28,11 +39,12 @@
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 15px;
     line-height: 1;
+    background: transparent;
 }
 
 .article-content {
@@ -105,3 +117,12 @@ p {
 
 }
 
+.top-section-container .top-section-container {
+    background: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 290px);
+    font-size: 18px;
+  
+  }

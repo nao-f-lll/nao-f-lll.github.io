@@ -1,3 +1,4 @@
+/* Common Styles */
 * {
   font-family: system-ui, sans-serif;
 }
@@ -15,24 +16,18 @@
   font-size: 28px;
 }
 
-/* Estilos para la lista desplegable */
 .custom-select {
   float: right;
   width: 200px;
-  /* Ajusta el ancho teniendo en cuenta los márgenes */
   padding: 10px;
   font-size: 16px;
   color: white;
 }
 
-/* Estilos para el contenedor del select */
 .select-container {
-  padding-right: 10%;
   float: right;
   overflow: hidden;
-  /* Evitar problemas de altura con elementos flotantes */
   width: calc(100% - 40px);
-  /* Ajusta el ancho teniendo en cuenta los márgenes */
   color: white;
 }
 
@@ -40,31 +35,6 @@
   width: 104px;
   height: 36px;
   margin-top: 30px;
-}
-
-/* Estilos para cada noticia */
-.news-item {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-/* Estilos para el contenedor del texto */
-.content {
-  flex: 1;
-  /* Ocupa todo el espacio disponible excepto la imagen */
-}
-
-/* Estilos para el contenedor del título y la fecha */
-.title-date {
-  margin-bottom: 10px;
-  /* Espacio entre el título y la fecha */
-}
-
-/* Estilos para el título */
-.title-date h2 {
-  font-size: 24px;
-  /* Tamaño de fuente más grande */
 }
 
 select {
@@ -83,15 +53,21 @@ option {
   white-space: nowrap;
 }
 
-/* Estilos para el enlace */
-.news-item a:hover {
-  text-decoration: underline;
-  /* Subrayado al pasar el ratón */
-  cursor: pointer;
-  /* Cambia el cursor al pasar el ratón */
+.news-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
-/* Estilos para la fecha */
+.content {
+  flex: 1;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .date {
   font-size: 15px;
   line-height: 30px;
@@ -99,41 +75,28 @@ option {
   text-transform: uppercase;
 }
 
-/* Estilos para el resumen */
 .news-item .summary {
   font-size: 18px;
-  /* Tamaño de fuente más grande */
   margin-right: 15%;
   margin-bottom: 5%;
 }
 
-/* Estilos para el enlace "Leer más" */
 .news-item .read-more {
   color: #069be7;
-  /* Cambia el color del enlace */
   text-decoration: underline;
-  /* Agrega subrayado al enlace */
   font-size: 18px;
-  /* Tamaño de fuente más grande */
 }
 
-/* Estilos para la imagen */
 .news-item img {
   width: 100%;
-  /* Ocupar todo el ancho del contenedor */
   height: auto;
-  /* Mantener la proporción */
   object-fit: cover;
-  /* Ajustar la imagen al contenedor manteniendo su relación de aspecto */
 }
 
 .image-container-mobile img {
   display: block;
-  /* Asegurar que la imagen se muestre en dispositivos móviles */
   width: 100%;
-  /* Ocupar todo el ancho disponible */
   height: auto;
-  /* Mantener la proporción */
 }
 
 .image-container-mobile {
@@ -177,7 +140,7 @@ summary {
   overflow: auto;
 }
 
-.news-articles-list li:first-child {
+.news-articles-list:nth-child(1) {
   border-top: none;
 }
 
@@ -185,14 +148,6 @@ summary {
   max-width: 1250px;
   width: calc(100% - 60px);
   margin: 0 auto;
-}
-
-.single-page-header {
-  background-color: #999;
-  color: #fff;
-  background-size: cover;
-  padding-top: 70px;
-  height: 175px;
 }
 
 .NewsArticleListPage .news-title {
@@ -207,10 +162,8 @@ summary {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-
   padding: 10px;
   border-radius: 2px;
-  /* Bordes redondeados */
 }
 
 .pagination-list {
@@ -222,7 +175,6 @@ summary {
 
 .pagination-item {
   margin: 0 5px;
-  /* Espacio entre los elementos de la lista */
 }
 
 .pagination-link {
@@ -230,30 +182,55 @@ summary {
   padding: 8px 12px;
   text-decoration: none;
   color: white;
-  /* Texto blanco */
   background-color: black;
-  /* Fondo negro */
   border-radius: 2px;
-  /* Bordes redondeados */
 }
 
 .pagination-link.current {
   background-color: #333;
-  /* Fondo más oscuro para la página actual */
 }
 
 .pagination-link:hover {
   background-color: #555;
-  /* Cambio de color al pasar el ratón */
 }
 
 .pagination-icon {
   margin-left: 5px;
-  /* Espacio entre el ícono y el texto */
 }
 
 .news-title {
   margin-top: 2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 200ms ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Differences in the Second Set */
+.title-date {
+  margin-bottom: 10px;
+}
+
+.title-date h2 {
+  font-size: 24px;
 }
 
 .image-container-desktop {
@@ -261,12 +238,6 @@ summary {
   flex-direction: column;
   position: relative;
   cursor: pointer;
-}
-
-.image-container-mobile .play-container {
-}
-
-.image-container-mobile .play-container .image-item {
 }
 
 .image-container-desktop .play-container .image-item {
