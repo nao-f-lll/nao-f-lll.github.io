@@ -2,9 +2,6 @@
     font-family: system-ui, sans-serif;
 }
 
-.title {
-    text-align: left;
-}
 
 .NewsArticlePage .top-section-container .article-title-container {
     height: 180px;
@@ -28,6 +25,10 @@
     padding: 25px 0;
 }
 
+.NewsArticlePage .article-title-container .title {
+    margin: auto 0;
+  }
+
 .article-title-text {
     margin: auto 0;
 }
@@ -39,7 +40,7 @@
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 15px;

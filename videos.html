@@ -1,706 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="media/Imagenes/logos/favicon.ico"
-    />
-    <link rel="stylesheet" href="Estilos/general.css" />
-    <link rel="stylesheet" href="Estilos/header.css" />
-    <link rel="stylesheet" href="Estilos/headerMediaQuery.css" />
-    <link rel="stylesheet" href="Estilos/noticias.css" />
-    <link rel="stylesheet" href="Estilos/noticiasMediaQuery.css" />
-    <link rel="stylesheet" href="Estilos/footer.css" />
-    <link rel="stylesheet" href="Estilos/footerMediaQuery.css" />
-    <script type="module" src="scripts/headerTemplate.js"></script>
-    <script type="module" src="scripts/footerTemplate.js"></script>
-    <title>Videos &#x21aa; worldrugby.org</title>
-  </head>
 
-  <body classs="NewsArticleListPage">
-    <rugby-header></rugby-header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="media/Imagenes/logos/favicon.ico" />
+  <link rel="stylesheet" href="Estilos/general.css" />
+  <link rel="stylesheet" href="Estilos/header.css" />
+  <link rel="stylesheet" href="Estilos/headerMediaQuery.css" />
+  <link rel="stylesheet" href="Estilos/noticias.css" />
+  <link rel="stylesheet" href="Estilos/noticiasMediaQuery.css" />
+  <link rel="stylesheet" href="Estilos/footer.css" />
+  <link rel="stylesheet" href="Estilos/footerMediaQuery.css" />
+  <script type="module" src="scripts/headerTemplate.js"></script>
+  <script type="module" src="scripts/footerTemplate.js"></script>
+  <title>Videos &#x21aa; worldrugby.org</title>
+</head>
 
-    <div class="top-section-container">
-      <div class="text-container">
-        <h1 class="title">Videos</h1>
+<body classs="NewsArticleListPage">
+  <rugby-header></rugby-header>
+
+  <div class="top-section-container">
+    <div class="text-container">
+      <h1 class="title narrow">Videos</h1>
+    </div>
+  </div>
+  <main>
+    <div class="narrow">
+      <div class="section-title-container">
+        <h2 class="news-title">Todos los videos</h2>
       </div>
     </div>
-    <main>
-      <div class="narrow">
-        <div class="section-title-container">
-          <h2 class="news-title">Todos los videos</h2>
-        </div>
+
+    <section class="narrow">
+      <div class="select-container">
+        <select id="YearSelector" class="custom-select">
+          <option value="all">All years</option>
+
+          <option id="select_option" value="2024">2024</option>
+
+          <option id="select_option" value="2023">2023</option>
+
+          <option id="select_option" value="2022">2022</option>
+        </select>
       </div>
 
-      <section class="narrow">
-        <div class="select-container">
-          <select id="YearSelector" class="custom-select">
-            <option value="all">All years</option>
+      <ul class="news-articles-list">
+        <li>
+          <div class="news-item">
+            <div class="content">
+              <a href="noticias/ESratima-eyes-opportunity-in-2024-season.html">
+                <h3>Tuipulotu liderará a los Blues en 2024</h3>
+              </a>
 
-            <option id="select_option" value="2024">2024</option>
+              <p class="date">16 DE ENERO DE 2024</p>
 
-            <option id="select_option" value="2023">2023</option>
-
-            <option id="select_option" value="2022">2022</option>
-          </select>
-        </div>
-
-        <ul class="news-articles-list">
-          <li>
-            <div class="news-item">
-              <div class="content">
-                <a href="noticias/ratima-eyes-opportunity-in-2024-season.html">
-                  <h3>Tuipulotu to lead the Blues in 2024</h3>
-                </a>
-
-                <p class="date">16 JANUARY 2024</p>
-
-                <div class="image-container-mobile">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/tom-franklin.html'"
-                      src="media/Imagenes/news/thumbnail/cape_town_preview.jpg"
-                      alt="Patrick"
-                    />
-                    <a class="video-link" href="noticias/tom-franklin.html">
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
-
-                <p class="summary">
-                  All Blacks lock Patrick Tuipulotu will be the Blues captain
-                  for the 2024 Super Rugby Pacific season. Tuipulotu, who led
-                  the side in 2019-21, said the captaincy was something he
-                  didn't take lightly.
-                </p>
-                <a
-                  href="noticias/ratima-eyes-opportunity-in-2024-season.html"
-                  class="read-more"
-                  >Read more</a
-                >
-              </div>
-              <div class="image-container-desktop">
+              <div class="image-container-mobile">
                 <span class="play-container">
-                  <img
-                    class="image-item"
-                    onclick="location.href='noticias/tom-franklin.html'"
-                    src="media/Imagenes/news/thumbnail/cape_town_preview.jpg"
-                    alt="Patrick"
-                  />
-                  <a class="video-link" href="noticias/tom-franklin.html">
+                  <img class="image-item" onclick="location.href='noticias/EStom-franklin.html'"
+                    src="media/Imagenes/news/thumbnail/cape_town_preview.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/EStom-franklin.html">
                     <button class="play-button">
-                      <img
-                        class="play-icon"
-                        src="media/Imagenes/logos/play_icon.png"
-                        alt="play_icon"
-                      />
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
+              </div>
+
+              <p class="summary">
+                El bloqueo de los All Blacks, Patrick Tuipulotu, será el
+                capitán de los Blues para la temporada 2024 de Super Rugby
+                Pacific. Tuipulotu, quien lideró al equipo en 2019-21, dijo
+                que la capitanía era algo que no se tomaba a la ligera.
+              </p>
+              <a href="noticias/ESratima-eyes-opportunity-in-2024-season.html" class="read-more">Leer más</a>
+            </div>
+            <div class="image-container-desktop">
+              <span class="play-container">
+                <img class="image-item" onclick="location.href='noticias/EStom-franklin.html'"
+                  src="media/Imagenes/news/thumbnail/cape_town_preview.jpg" alt="Patrick" />
+                <a class="video-link" href="noticias/EStom-franklin.html">
+                  <button class="play-button">
+                    <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                  </button>
+                </a>
+              </span>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="news-item">
+            <div class="content">
+              <a href="noticias\EStom-franklin.html">
+                <div class="img">
+                  <h3>
+                    El ex segunda linea de Highlander Tom Franklin firma con
+                    Western Force
+                  </h3>
+                </div>
+              </a>
+
+              <p class="date">12 DE ENERO DE 2024</p>
+
+              <div class="image-container-mobile">
+                <span class="play-container">
+                  <img class="image-item" onclick="location.href='noticias/EStom-franklin.html'"
+                    src="media/Imagenes/news/thumbnail/fans_in_lyon.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/EStom-franklin.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
+              </div>
+
+              <p class="summary">
+                El ex segunda linea de Highlander y Māori All Blacks, Tom
+                Franklin, regresará a DHL Super Rugby Pacific con Force en
+                2024.
+              </p>
+              <a href="noticias\tom-franklin.html" class="read-more">Leer más</a>
+            </div>
+
+            <div class="image-container-desktop">
+              <div class="img">
+                <span class="play-container">
+                  <img class="image-item" onclick="location.href='noticias/EStom-franklin.html'"
+                    src="media/Imagenes/news/thumbnail/fans_in_lyon.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/EStom-franklin.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
                     </button>
                   </a>
                 </span>
               </div>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li>
-            <div class="news-item">
-              <div class="content">
-                <a href="noticias\tom-franklin.html">
-                  <div class="img">
-                    <h3>
-                      Former Highlander Tom Franklin Signs with the Western
-                      Force
-                    </h3>
-                  </div>
-                </a>
+        <li>
+          <div class="news-item">
+            <div class="content">
+              <a href="noticias\Ardie-Savea.html">
+                <h3>Ardie Savea gana el primer premio en los ASB Rugby Awards</h3>
+              </a>
+              <p class="date">14 de DICIEMBRE de 2023</p>
 
-                <p class="date">12 JANUARY 2024</p>
-
-                <div class="image-container-mobile">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/tom-franklin.html'"
-                      src="media/Imagenes/news/thumbnail/fans_in_lyon.jpg"
-                      alt="Patrick"
-                    />
-                    <a class="video-link" href="noticias/tom-franklin.html">
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
-
-                <p class="summary">
-                  Former Highlander and Māori All Blacks lock Tom Franklin will
-                  return to DHL Super Rugby Pacific with the Force in 2024.
-                </p>
-                <a href="noticias\tom-franklin.html" class="read-more"
-                  >Read more</a
-                >
+              <div class="image-container-mobile">
+                <span class="play-container">
+                  <img class="image-item" onclick="location.href='noticias/EStom-franklin.html'"
+                    src="media/Imagenes/news/thumbnail/fans_try.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/EStom-franklin.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
+              <p class="summary">
+                Un mes después de reclamar el premio más importante de World
+                Rugby, Ardie Savea obtuvo el premio al Jugador del Año en
+                Kelvin R Tremain Memorial en los ASB Rugby Awards de esta
+                noche.
+              </p>
+              <a href="noticias\Ardie-Savea.html" class="read-more">Leer más</a>
+            </div>
 
-              <div class="image-container-desktop">
-                <div class="img">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/tom-franklin.html'"
-                      src="media/Imagenes/news/thumbnail/fans_in_lyon.jpg"
-                      alt="Patrick"
-                    />
-                    <a class="video-link" href="noticias/tom-franklin.html">
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
+            <div class="image-container-desktop">
+              <div class="img">
+                <span class="play-container">
+                  <img class="image-item" onclick="location.href='noticias\Ardie-Savea.html'"
+                    src="media/Imagenes/news/thumbnail/fans_try.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias\Ardie-Savea.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li>
-            <div class="news-item">
-              <div class="content">
-                <a href="noticias\Ardie-Savea.html">
-                  <h3>Ardie Savea wins top prize at ASB Rugby Awards</h3>
-                </a>
-                <p class="date">14 December 2023</p>
+        <li>
+          <div class="news-item">
+            <div class="content">
+              <a href="noticias/ESjono-gibbes-back-on-deck-with-the-chiefs.html">
+                <h3>Jono Gibbes vuelve a la carga con los Chiefs</h3>
+              </a>
 
-                <div class="image-container-mobile">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/tom-franklin.html'"
-                      src="media/Imagenes/news/thumbnail/fans_try.jpg"
-                      alt="Patrick"
-                    />
-                    <a class="video-link" href="noticias/tom-franklin.html">
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
-                <p class="summary">
-                  A month after claiming World Rugby’s biggest prize, Ardie
-                  Savea has claimed the Kelvin R Tremain Memorial Player of the
-                  Year at this evening’s ASB Rugby Awards.
-                </p>
-                <a href="noticias\Ardie-Savea.html" class="read-more"
-                  >Read more</a
-                >
+              <p class="date">14 de DICIEMBRE de 2023</p>
+
+              <div class="image-container-mobile">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESjono-gibbes-back-on-deck-with-the-chiefs.html'"
+                    src="media/Imagenes/news/thumbnail/rugbyAward.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESjono-gibbes-back-on-deck-with-the-chiefs.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
 
-              <div class="image-container-desktop">
-                <div class="img">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias\Ardie-Savea.html'"
-                      src="media/Imagenes/news/thumbnail/fans_try.jpg"
-                      alt="Patrick"
-                    />
-                    <a class="video-link" href="noticias\Ardie-Savea.html">
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
+              <p class="summary">
+                El peripatético ex All Black Lock Jono Gibbes se unirá a los
+                  Chiefs para el Super Rugby Pacific el próximo año como
+                  entrenador de recursos y entrenador del Chiefs' Development
+                  XV.
+              </p>
+              <a href="noticias/ESjono-gibbes-back-on-deck-with-the-chiefs.html" class="read-more">Leer más</a>
+            </div>
+
+            <div class="image-container-desktop">
+              <div class="img">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESjono-gibbes-back-on-deck-with-the-chiefs.html'"
+                    src="media/Imagenes/news/thumbnail/rugbyAward.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESjono-gibbes-back-on-deck-with-the-chiefs.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li>
-            <div class="news-item">
-              <div class="content">
-                <a
-                  href="noticias/jono-gibbes-back-on-deck-with-the-chiefs.html"
-                >
-                  <h3>Jono Gibbes back on deck with the Chiefs</h3>
-                </a>
+        <li>
+          <div class="news-item">
+            <div class="content">
+              <a href="noticias/ESrecovery-rivalry-and-redemption-tj-perenaras-comeback-story.html">
+                <h3>
+                  Recuperación, rivalidad y redención: la historia del regreso
+                    de TJ Perenara
+                </h3>
+              </a>
 
-                <p class="date">14 December 2023</p>
+              <p class="date">13 DE DICIEMBRE DE 2023</p>
 
-                <div class="image-container-mobile">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/jono-gibbes-back-on-deck-with-the-chiefs.html'"
-                      src="media/Imagenes/news/thumbnail/rugbyAward.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/jono-gibbes-back-on-deck-with-the-chiefs.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
-
-                <p class="summary">
-                  Peripatetic former All Black lock Jono Gibbes has joined the
-                  Chiefs for Super Rugby Pacific next year as a resource coach
-                  and coach of the Chiefs' Development XV.
-                </p>
-                <a
-                  href="noticias/jono-gibbes-back-on-deck-with-the-chiefs.html"
-                  class="read-more"
-                  >Read more</a
-                >
+              <div class="image-container-mobile">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESrecovery-rivalry-and-redemption-tj-perenaras-comeback-story.html'"
+                    src="media/Imagenes/news/thumbnail/same_cane.jpg" alt="Patrick" />
+                  <a class="video-link"
+                    href="noticias/ESrecovery-rivalry-and-redemption-tj-perenaras-comeback-story.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
 
-              <div class="image-container-desktop">
-                <div class="img">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/jono-gibbes-back-on-deck-with-the-chiefs.html'"
-                      src="media/Imagenes/news/thumbnail/rugbyAward.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/jono-gibbes-back-on-deck-with-the-chiefs.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
+              <p class="summary">
+                Recuperándose de la lesión en el tendón de Aquiles que sufrió
+                  en el empate 25-25 con Inglaterra a finales de 2022, el
+                  corredor TJ Perenara ha señalado que recuperar su camiseta de
+                  los All Blacks es su objetivo a largo plazo.
+              </p>
+              <a href="noticias/ESrecovery-rivalry-and-redemption-tj-perenaras-comeback-story.html"
+                class="read-more">Leer más</a>
+            </div>
+
+            <div class="image-container-desktop">
+              <div class="img">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESrecovery-rivalry-and-redemption-tj-perenaras-comeback-story.html'"
+                    src="media/Imagenes/news/thumbnail/same_cane.jpg" alt="Patrick" />
+                  <a class="video-link"
+                    href="noticias/ESrecovery-rivalry-and-redemption-tj-perenaras-comeback-story.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li>
-            <div class="news-item">
-              <div class="content">
-                <a
-                  href="noticias/recovery-rivalry-and-redemption-tj-perenaras-comeback-story.html"
-                >
-                  <h3>
-                    Recovery, Rivalry, and Redemption: TJ Perenara's Comeback
-                    Story
-                  </h3>
-                </a>
+        <li>
+          <div class="news-item">
+            <div class="content">
+              <a href="noticias/ESlakai-plots-return-to-field-for-hurricanes.html">
+                <h3>Los planes de Lakai regresan al campo para los huracanes</h3>
+              </a>
 
-                <p class="date">13 December 2023</p>
+              <p class="date">12 DE DICIEMBRE DE 2023</p>
 
-                <div class="image-container-mobile">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/recovery-rivalry-and-redemption-tj-perenaras-comeback-story.html'"
-                      src="media/Imagenes/news/thumbnail/same_cane.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/recovery-rivalry-and-redemption-tj-perenaras-comeback-story.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
-
-                <p class="summary">
-                  Recovering from the Achilles tendon injury he suffered in the
-                  25-25 draw with England at the end of 2022, halfback TJ
-                  Perenara has signalled that regaining his All Blacks jersey is
-                  his long-term goal.
-                </p>
-                <a
-                  href="noticias/recovery-rivalry-and-redemption-tj-perenaras-comeback-story.html"
-                  class="read-more"
-                  >Read more</a
-                >
+              <div class="image-container-mobile">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESlakai-plots-return-to-field-for-hurricanes.html'"
+                    src="media/Imagenes/news/thumbnail/rugby_recoded.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESlakai-plots-return-to-field-for-hurricanes.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
 
-              <div class="image-container-desktop">
-                <div class="img">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/recovery-rivalry-and-redemption-tj-perenaras-comeback-story.html'"
-                      src="media/Imagenes/news/thumbnail/same_cane.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/recovery-rivalry-and-redemption-tj-perenaras-comeback-story.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
+              <p class="summary">
+                El delantero suelto de los Hurricanes emergentes, Peter Lakai,
+                  pretende empezar a trabajar cuando se reanude el entrenamiento
+                  de pretemporada en enero.
+              </p>
+              <a href="noticias/ESlakai-plots-return-to-field-for-hurricanes.html" class="read-more">Leer más</a>
+            </div>
+
+            <div class="image-container-desktop">
+              <div class="img">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESlakai-plots-return-to-field-for-hurricanes.html'"
+                    src="media/Imagenes/news/thumbnail/rugby_recoded.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESlakai-plots-return-to-field-for-hurricanes.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li>
-            <div class="news-item">
-              <div class="content">
-                <a
-                  href="noticias/lakai-plots-return-to-field-for-hurricanes.html"
-                >
-                  <h3>Lakai plots return to field for Hurricanes</h3>
-                </a>
+        <li>
+          <div class="news-item">
+            <div class="content">
+              <a href="noticias/ESratima-eyes-opportunity-in-2024-season.html">
+                <h3>Ratima ve una oportunidad en la temporada 2024</h3>
+              </a>
 
-                <p class="date">12 December 2023</p>
+              <p class="date">12 DE DICIEMBRE DE 2023</p>
 
-                <div class="image-container-mobile">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/lakai-plots-return-to-field-for-hurricanes.html'"
-                      src="media/Imagenes/news/thumbnail/rugby_recoded.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/lakai-plots-return-to-field-for-hurricanes.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
-
-                <p class="summary">
-                  Emerging Hurricanes loose forward Peter Lakai aims to hit the
-                  ground running when pre-season training resumes in January.
-                </p>
-                <a
-                  href="noticias/lakai-plots-return-to-field-for-hurricanes.html"
-                  class="read-more"
-                  >Read more</a
-                >
+              <div class="image-container-mobile">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESratima-eyes-opportunity-in-2024-season.html'"
+                    src="media/Imagenes/news/thumbnail/press_conference.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESratima-eyes-opportunity-in-2024-season.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
 
-              <div class="image-container-desktop">
-                <div class="img">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/lakai-plots-return-to-field-for-hurricanes.html'"
-                      src="media/Imagenes/news/thumbnail/rugby_recoded.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/lakai-plots-return-to-field-for-hurricanes.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
+              <p class="summary">
+                El corredor de los Rising Chiefs, Cortez Ratima, tendrá muchos
+                  incentivos en la preparación del juego DHL Super Rugby Pacific
+                  en 2024.
+              <a href="noticias/ESratima-eyes-opportunity-in-2024-season.html" class="read-more">Leer más</a>
+            </div>
+
+            <div class="image-container-desktop">
+              <div class="img">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESratima-eyes-opportunity-in-2024-season.html'"
+                    src="media/Imagenes/news/thumbnail/press_conference.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESratima-eyes-opportunity-in-2024-season.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li>
-            <div class="news-item">
-              <div class="content">
-                <a href="noticias/ratima-eyes-opportunity-in-2024-season.html">
-                  <h3>Ratima eyes opportunity in 2024 season</h3>
-                </a>
+        <li>
+          <div class="news-item">
+            <div class="content">
+              <a href="noticias/ESmillar-keen-to-make-up-for-lost-time-at-the-highlanders.html">
+                <h3>
+                  Millar quiere recuperar el tiempo perdido en los Highlanders
+                </h3>
+              </a>
 
-                <p class="date">12 December 2023</p>
+              <p class="date">12 DE DICIEMBRE DE 2023</p>
 
-                <div class="image-container-mobile">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/ratima-eyes-opportunity-in-2024-season.html'"
-                      src="media/Imagenes/news/thumbnail/press_conference.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/ratima-eyes-opportunity-in-2024-season.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
-
-                <p class="summary">
-                  Rising Chiefs halfback Cortez Ratima will have plenty of
-                  incentives in DHL Super Rugby Pacific game preparation in
-                  2024.
-                </p>
-                <a
-                  href="noticias/ratima-eyes-opportunity-in-2024-season.html"
-                  class="read-more"
-                  >Read more</a
-                >
+              <div class="image-container-mobile">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESmillar-keen-to-make-up-for-lost-time-at-the-highlanders.html'"
+                    src="media/Imagenes/news/thumbnail/match_highlights.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESmillar-keen-to-make-up-for-lost-time-at-the-highlanders.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
 
-              <div class="image-container-desktop">
-                <div class="img">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/ratima-eyes-opportunity-in-2024-season.html'"
-                      src="media/Imagenes/news/thumbnail/press_conference.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/ratima-eyes-opportunity-in-2024-season.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
+              <p class="summary">
+                Highlanders y Otago primeros cinco octavos Cameron Millar ha
+                recibido algunas lecciones tempranas sobre cómo ser paciente
+                en su carrera de rugby, pero de cara al DHL Super Rugby
+                Pacific en 2024, está ansioso por recuperar el tiempo perdido.
+              </p>
+              <a href="noticias/ESmillar-keen-to-make-up-for-lost-time-at-the-highlanders.html" class="read-more">Read
+                more</a>
+            </div>
+
+            <div class="image-container-desktop">
+              <div class="img">
+                <span class="play-container">
+                  <img class="image-item"
+                    onclick="location.href='noticias/ESmillar-keen-to-make-up-for-lost-time-at-the-highlanders.html'"
+                    src="media/Imagenes/news/thumbnail/match_highlights.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESmillar-keen-to-make-up-for-lost-time-at-the-highlanders.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
             </div>
-          </li>
+          </div>
+        </li>
+        <li>
+          <div class="news-item">
+            <div class="content">
+              <a href="noticias/ESsam-darry.html">
+                <h3> Sam Darry construye sueños de campeonato con los Blues</h3>
+              </a>
 
-          <li>
-            <div class="news-item">
-              <div class="content">
-                <a
-                  href="noticias/millar-keen-to-make-up-for-lost-time-at-the-highlanders.html"
-                >
-                  <h3>
-                    Millar keen to make up for lost time at the Highlanders
-                  </h3>
-                </a>
+              <p class="date">11 de diciembre de 2023</p>
 
-                <p class="date">12 December 2023</p>
-
-                <div class="image-container-mobile">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/millar-keen-to-make-up-for-lost-time-at-the-highlanders.html'"
-                      src="media/Imagenes/news/thumbnail/match_highlights.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/millar-keen-to-make-up-for-lost-time-at-the-highlanders.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
-
-                <p class="summary">
-                  Highlanders and Otago first five-eighths Cameron Millar has
-                  had some early lessons in being patient in his rugby career,
-                  but heading into DHL Super Rugby Pacific in 2024, he is keen
-                  to make up for lost time.
-                </p>
-                <a
-                  href="noticias/millar-keen-to-make-up-for-lost-time-at-the-highlanders.html"
-                  class="read-more"
-                  >Read more</a
-                >
+              <div class="image-container-mobile">
+                <span class="play-container">
+                  <img class="image-item" onclick="location.href='noticias/ESsam-darry.html'"
+                    src="media\Imagenes\news\thumbnail\Sam-Darry.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESsam-darry.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
 
-              <div class="image-container-desktop">
-                <div class="img">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/millar-keen-to-make-up-for-lost-time-at-the-highlanders.html'"
-                      src="media/Imagenes/news/thumbnail/match_highlights.jpg"
-                      alt="Patrick"
-                    />
-                    <a
-                      class="video-link"
-                      href="noticias/millar-keen-to-make-up-for-lost-time-at-the-highlanders.html"
-                    >
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
+              <p class="summary">
+                El segunda linea de los Blues, Sam Darry, busca aprovechar su
+                ya impresionante comienzo en el Super Rugby Pacific y ser
+                parte de una unidad con sede en Auckland que juegue
+                consistentemente a su capacidad en 2024.
+              </p>
+              <a href="noticias/ESsam-darry.html" class="read-more">Leer más</a>
+            </div>
+
+            <div class="image-container-desktop">
+              <div class="img">
+                <span class="play-container">
+                  <img class="image-item" onclick="location.href='noticias/ESsam-darry.html'"
+                    src="media\Imagenes\news\thumbnail\Sam-Darry.jpg" alt="Patrick" />
+                  <a class="video-link" href="noticias/ESsam-darry.html">
+                    <button class="play-button">
+                      <img class="play-icon" src="media/Imagenes/logos/play_icon.png" alt="play_icon" />
+                    </button>
+                  </a>
+                </span>
               </div>
             </div>
-          </li>
-          <li>
-            <div class="news-item">
-              <div class="content">
-                <a href="noticias/sam-darry.html">
-                  <h3>Sam Darry builds Championship dreams with the Blues</h3>
-                </a>
+          </div>
+        </li>
+      </ul>
 
-                <p class="date">11 December 2023</p>
+      
+    </section>
+  </main>
 
-                <div class="image-container-mobile">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/sam-darry.html'"
-                      src="media\Imagenes\news\thumbnail\Sam-Darry.jpg"
-                      alt="Patrick"
-                    />
-                    <a class="video-link" href="noticias/sam-darry.html">
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
+  <rugby-footer></rugby-footer>
+  <script src="scripts/header.js"></script>
+  <script src="scripts/yearSelector.js"></script>
+</body>
 
-                <p class="summary">
-                  Blues lock Sam Darry is looking to build on his already
-                  impressive start in Super Rugby Pacific and be part of an
-                  Auckland-based unit that consistently plays to its ability in
-                  2024.
-                </p>
-                <a href="noticias/sam-darry.html" class="read-more"
-                  >Read more</a
-                >
-              </div>
-
-              <div class="image-container-desktop">
-                <div class="img">
-                  <span class="play-container">
-                    <img
-                      class="image-item"
-                      onclick="location.href='noticias/sam-darry.html'"
-                      src="media\Imagenes\news\thumbnail\Sam-Darry.jpg"
-                      alt="Patrick"
-                    />
-                    <a class="video-link" href="noticias/sam-darry.html">
-                      <button class="play-button">
-                        <img
-                          class="play-icon"
-                          src="media/Imagenes/logos/play_icon.png"
-                          alt="play_icon"
-                        />
-                      </button>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-        <div class="pagination">
-          <ul class="pagination-list">
-            <li class="pagination-item">
-              <span class="pagination-link current">1</span>
-            </li>
-            <li class="pagination-item">
-              <a href="#" class="pagination-link">2</a>
-            </li>
-            <li class="pagination-item">
-              <a href="#" class="pagination-link">3</a>
-            </li>
-            <li class="pagination-item">
-              <a href="#" class="pagination-link">4</a>
-            </li>
-            <li class="pagination-item">
-              <a href="#" class="pagination-link">5</a>
-            </li>
-            ...
-            <li class="pagination-item">
-              <a href="/news/year?start=1510" class="pagination-link">152</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <rugby-footer></rugby-footer>
-    <script src="scripts/header.js"></script>
-    <script src="scripts/yearSelector.js"></script>
-  </body>
 </html>
