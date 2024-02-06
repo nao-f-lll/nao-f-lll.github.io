@@ -58,7 +58,7 @@
 .team-logo {
   background-color: white;
   margin: 0 4%;
-  width: 7.8740157480315%;
+  width: 6.8740157480315%;
   background: transparent;
 }
 
@@ -133,6 +133,51 @@
 .location {
   height: 100px;
 }
+
+.select-outer-container {
+  position: absolute;
+  top: 160px;
+  right: 50px;
+  width: 260px;
+  background: transparent;
+}
+
+.select-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 92%;
+  height: 50px;
+}
+.select-box {
+  border: none;
+  appearance: none;
+  padding: 0 30px 0 15px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background-color: #323232;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.select-box-icon-container i {
+  background: transparent;
+  font-size: 30px;
+  color: white;
+}
+.select-box-icon-container {
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 964px) {
   .left-part-container,
   .middle-section,

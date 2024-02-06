@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="Estilos/resultados.css" />
     <script type="module" src="scripts/headerTemplate.js"></script>
     <script type="module" src="scripts/footerTemplate.js"></script>
+    <script
+    src="https://kit.fontawesome.com/6cb64a97a2.js"
+    crossorigin="anonymous"
+  ></script>
     <title>Resultados &#x21aa; worldrugby.org</title>
   </head>
   <body>
@@ -29,6 +33,39 @@
         <p class="sub-title">Competiciones y Últimos resultados.</p>
       </div>
     </div>
+
+    <div class="select-outer-container">
+      <div class="select-container">
+        <select class="select-box" name="selectBox" id="selectBox">
+          <option >Elige una temporada</option>
+          <option
+            onclick="location.href='clasificacion/2023-season.xml'"
+            value="2023"
+          >
+            2023
+          </option>
+          <option onclick="location.href='clasificacion.xml'" value="2024">
+            2024
+          </option>
+          <option
+            onclick="location.href='clasificacion/2025-season.xml'"
+            value="2025"
+          >
+            2025
+          </option>
+          <option
+            onclick="location.href='clasificacion/2026-season.xml'"
+            value="2026"
+          >
+            2026
+          </option>
+        </select>
+        <div class="select-box-icon-container">
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </div>
+    </div>
+
     <xsl:for-each select = "jornada">
     <div class="results-container">
       <h3 class="jornada-title">Jornada <xsl:value-of select="orden"></xsl:value-of></h3>
