@@ -145,7 +145,7 @@ form input[type="submit"] {
   border: none;
 }
 
-.signup input[type="submit"]:hover {
+.sign-up input[type="submit"]:hover {
   color: #ffffff;
 }
 
@@ -156,4 +156,26 @@ form input[type="submit"] {
 .sign-up .signup-check {
   background: transparent;
   color: black;
+}
+
+@media screen and (max-width: 516px) {
+  .wrapper {
+    max-width: 370px;
+  }
+
+  .wrapper.active {
+    height: 580px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .wrapper {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .wrapper {
+    max-width: 320px;
+  }
 }
