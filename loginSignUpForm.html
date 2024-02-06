@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="media/Imagenes/logos/favicon.ico"
+    />
+    <title>Inicio de sesion &#x21aa; worldrugby.org</title>
+    <link rel="stylesheet" href="Estilos/loginSignUpForm.css" />
+    <link rel="stylesheet" href="Estilos/general.css" />
+    <link rel="stylesheet" href="Estilos/header.css" />
+    <link rel="stylesheet" href="Estilos/headerMediaQuery.css" />
+    <link rel="stylesheet" href="Estilos/footer.css" />
+    <link rel="stylesheet" href="Estilos/footerMediaQuery.css" />
+    <script type="module" src="scripts/headerTemplate.js"></script>
+    <script type="module" src="scripts/footerTemplate.js"></script>
+  </head>
+  <body>
+    <rugby-header></rugby-header>
+    <section class="wrapper">
+      <div class="form login">
+        <header class="title">Inicio de Sesión</header>
+        <form class="login-form" action="#" method="GET">
+          <input
+            type="email"
+            title=""
+            id="login-email"
+            placeholder="Correo electrónico"
+            required
+            name="email"
+            pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/"
+          />
+
+          <input
+            id="login-password"
+            title=""
+            type="password"
+            name="password"
+            placeholder="Contraseña"
+            required
+          />
+          <a class="password-reset" href="#">¿Has olvidado tu contraseña?</a>
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+
+      <div class="form sign-up">
+        <header class="title">Registrarse</header>
+        <form class="sign-up-form" action="#">
+          <input
+            id="sign-up-name"
+            title=""
+            type="text"
+            placeholder="Nombre completo"
+            required
+            name="name"
+          />
+
+          <input
+            id="sign-up-email"
+            title=""
+            type="text"
+            name="email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <input
+            id="sign-up-password"
+            title=""
+            type="password"
+            name="password"
+            placeholder="Contraseña"
+            required
+          />
+          <div class="checkbox">
+            <input type="checkbox" id="signupCheck" />
+            <label class="signup-check" for="signupCheck"
+              >Acepto todos los términos y condiciones</label
+            >
+          </div>
+          <input type="submit" value="Sign Up" />
+        </form>
+      </div>
+      <script>
+        const wrapper = document.querySelector(".wrapper"),
+          signupHeader = document.querySelector(".sign-up .title"),
+          loginHeader = document.querySelector(".login .title");
+
+        signupHeader.addEventListener("click", () => {
+          wrapper.classList.add("active");
+        });
+        loginHeader.addEventListener("click", () => {
+          wrapper.classList.remove("active");
+        });
+      </script>
+    </section>
+    <script type="module" src="scripts/loginSignUpFormValedation.js"></script>
+    <rugby-footer></rugby-footer>
+    <script src="scripts/header.js"></script>
+  </body>
+</html>

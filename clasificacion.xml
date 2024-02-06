@@ -5,74 +5,74 @@
 <fila id="1">
  <posicion>1</posicion>
 <equipo>
-<logo>media/Imagenes/logos/all_blacks_badge_white.png</logo>
-<nombre>AllBlacks</nombre>
-</equipo>
-<partidos>10</partidos>
-<victorias>7</victorias>
-<derrotas>3</derrotas>
-<empates>0</empates>
-<puntos>553</puntos>
-</fila>
-<fila id="2">
- <posicion>2</posicion>
-<equipo>
-<logo>media/Imagenes/logos/red_rose_logo.png</logo>
-<nombre>RedRose</nombre>
-</equipo>
-<partidos>10</partidos>
-<victorias>6</victorias>
-<derrotas>4</derrotas>
-<empates>0</empates>
-<puntos>443</puntos>
-</fila>
-<fila id="3">
- <posicion>3</posicion>
-<equipo>
 <logo>media/Imagenes/logos/thistle_logo.png</logo>
 <nombre>Thistle</nombre>
 </equipo>
 <partidos>10</partidos>
-<victorias>5</victorias>
-<derrotas>5</derrotas>
-<empates>0</empates>
-<puntos>579</puntos>
+<victorias>6</victorias>
+<derrotas>3</derrotas>
+<empates>1</empates>
+<puntos>598</puntos>
 </fila>
-<fila id="4">
- <posicion>4</posicion>
+<fila id="2">
+ <posicion>2</posicion>
 <equipo>
-<logo>media/Imagenes/logos/wallabies-logo.png</logo>
-<nombre>Wallabies</nombre>
+<logo>media/Imagenes/logos/all_blacks_badge_white.png</logo>
+<nombre>AllBlacks</nombre>
 </equipo>
 <partidos>10</partidos>
 <victorias>5</victorias>
 <derrotas>5</derrotas>
 <empates>0</empates>
-<puntos>448</puntos>
+<puntos>581</puntos>
 </fila>
-<fila id="5">
- <posicion>5</posicion>
+<fila id="3">
+ <posicion>3</posicion>
 <equipo>
 <logo>media/Imagenes/logos/feathers_logo.png</logo>
 <nombre>Feathers</nombre>
 </equipo>
 <partidos>10</partidos>
-<victorias>4</victorias>
-<derrotas>6</derrotas>
+<victorias>5</victorias>
+<derrotas>5</derrotas>
 <empates>0</empates>
-<puntos>461</puntos>
+<puntos>509</puntos>
 </fila>
-<fila id="6">
- <posicion>6</posicion>
+<fila id="4">
+ <posicion>4</posicion>
+<equipo>
+<logo>media/Imagenes/logos/red_rose_logo.png</logo>
+<nombre>RedRose</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>4</victorias>
+<derrotas>5</derrotas>
+<empates>1</empates>
+<puntos>491</puntos>
+</fila>
+<fila id="5">
+ <posicion>5</posicion>
 <equipo>
 <logo>media/Imagenes/logos/shamrock-logo.png</logo>
 <nombre>Shamrock</nombre>
 </equipo>
 <partidos>10</partidos>
-<victorias>3</victorias>
-<derrotas>7</derrotas>
-<empates>0</empates>
-<puntos>420</puntos>
+<victorias>4</victorias>
+<derrotas>5</derrotas>
+<empates>1</empates>
+<puntos>470</puntos>
+</fila>
+<fila id="6">
+ <posicion>6</posicion>
+<equipo>
+<logo>media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
+<nombre>Springboks</nombre>
+</equipo>
+<partidos>10</partidos>
+<victorias>4</victorias>
+<derrotas>5</derrotas>
+<empates>1</empates>
+<puntos>382</puntos>
 </fila>
 </clasificacion>
 
