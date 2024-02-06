@@ -5,7 +5,7 @@ class HeaderComponent extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    <header>
+    <header> 
       <div class="header-container">
         <!--Contenedor que aparece solo en la ultima media query-->
         <div class="top-container"></div>
@@ -167,12 +167,14 @@ class HeaderComponent extends HTMLElement {
               >Español</span
             >
             <div class="language-list" id="language-list">
-              <a href="#" onclick="selectLanguage('English')">English </a>
+            
               <a href="#" onclick="selectLanguage('Español')">Español </a>
             </div>
           </div>
 
-          <button class="sign-in-button">Iniciar Sesion</button>
+          <a href="loginSignUpForm.html"
+          ><button class="sign-in-button">Iniciar Sesion</button></a
+        >
         </div>
       </div>
       <!--icono de menú desplegable cerrado; aparece solo en versión del móvil-->
