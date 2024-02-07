@@ -101,7 +101,7 @@ class HeaderComponent extends HTMLElement {
               </ul>
             </li>
             <li>
-              <a class="nav-element hiden-element-mobile" href="resultados.xml"
+              <a class="nav-element hiden-element-mobile resultados-link" href="resultados.xml"
                 >Resultados <span class="underline-secundario"></span>
               </a>
             </li>
@@ -213,6 +213,8 @@ class HeaderComponent extends HTMLElement {
         pagina.classList.add("underline-principal");
       }
     });
+    var resultadoLink = document.querySelector(".resultados-link");
+    resultadoLink.href = "resultados/2024.xml";
   }
 }
 

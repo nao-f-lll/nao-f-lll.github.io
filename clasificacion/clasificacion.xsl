@@ -8,16 +8,16 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="media/Imagenes/logos/favicon.ico"
+      href="../media/Imagenes/logos/favicon.ico"
     />
-    <link rel="stylesheet" href="Estilos/general.css" />
-    <link rel="stylesheet" href="Estilos/header.css" />
-    <link rel="stylesheet" href="Estilos/headerMediaQuery.css" />
-    <link rel="stylesheet" href="Estilos/footer.css" />
-    <link rel="stylesheet" href="Estilos/footerMediaQuery.css" />
-    <link rel="stylesheet" href="Estilos/clasificacion.css" />
-    <script type="module" src="scripts/headerTemplate.js"></script>
-    <script type="module" src="scripts/footerTemplate.js"></script>
+    <link rel="stylesheet" href="../Estilos/general.css" />
+    <link rel="stylesheet" href="../Estilos/header.css" />
+    <link rel="stylesheet" href="../Estilos/headerMediaQuery.css" />
+    <link rel="stylesheet" href="../Estilos/footer.css" />
+    <link rel="stylesheet" href="../Estilos/footerMediaQuery.css" />
+    <link rel="stylesheet" href="../Estilos/clasificacion.css" />
+    <script type="module" src="../scripts/headerTemplateAbsolutePath.js"></script>
+    <script type="module" src="../scripts/footerTemplateAbsolutPath.js"></script>
     <script
     src="https://kit.fontawesome.com/6cb64a97a2.js"
     crossorigin="anonymous"
@@ -32,32 +32,20 @@
         <p class="sub-title">Team Standings.</p>
       </div>
     </div>
-    <script src="scripts/header.js"></script>
+    <script src="../scripts/header.js"></script>
 
     <div class="select-outer-container">
       <div class="select-container">
         <select class="select-box" name="selectBox" id="selectBox">
           <option >Elige una temporada</option>
           <option
-            onclick="location.href='clasificacion/2023-season.xml'"
+            onclick="location.href='2023.xml'"
             value="2023"
           >
             2023
           </option>
-          <option onclick="location.href='clasificacion.xml'" value="2024">
+          <option onclick="location.href='2024.xml'" value="2024">
             2024
-          </option>
-          <option
-            onclick="location.href='clasificacion/2025-season.xml'"
-            value="2025"
-          >
-            2025
-          </option>
-          <option
-            onclick="location.href='clasificacion/2026-season.xml'"
-            value="2026"
-          >
-            2026
           </option>
         </select>
         <div class="select-box-icon-container">

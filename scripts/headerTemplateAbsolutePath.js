@@ -69,8 +69,8 @@ class HeaderComponent extends HTMLElement {
             </ul>
           </li>
           <li>
-            <a class="nav-element hiden-element-mobile" href="/resultados.xml">
-              Resultados <span class="underline-secundario"></span>
+            <a class="nav-element hiden-element-mobile resultados-link" href="/resultados.xml">
+              Resultados <span class="underline-secundario, resultados"></span>
             </a>
           </li>
           <li>
@@ -149,6 +149,8 @@ class HeaderComponent extends HTMLElement {
     const currentPageUrl = window.location.href;
     var targetFolder = "/noticias/";
 
+    var resultsFolder = "/resultados/";
+
     if (currentPageUrl.includes(targetFolder)) {
       const paginaPrincipalAntigua = this.querySelector(".underline-principal");
       paginaPrincipalAntigua.classList.remove("underline-principal");
@@ -157,6 +159,13 @@ class HeaderComponent extends HTMLElement {
       paginaSecundaria.classList.remove("underline-secundario");
       paginaSecundaria.classList.add("underline-principal");
       noticias;
+    } else if (currentPageUrl.includes(resultsFolder)) {
+      const paginaPrincipalAntigua = this.querySelector(".underline-principal");
+      paginaPrincipalAntigua.classList.remove("underline-principal");
+      paginaPrincipalAntigua.classList.add("underline-secundario");
+      const paginaSecundaria = this.querySelector(".resultados");
+      paginaSecundaria.classList.remove("underline-secundario");
+      paginaSecundaria.classList.add("underline-principal");
     } else {
       const paginaPrincipalAntigua = this.querySelector(".underline-principal");
       const paginasSecundarias = this.querySelector(".teams-page");
@@ -166,6 +175,9 @@ class HeaderComponent extends HTMLElement {
       paginasSecundarias.classList.remove("underline-secundario");
       paginasSecundarias.classList.add("underline-principal");
     }
+
+    var resultadoLink = document.querySelector(".resultados-link");
+    resultadoLink.href = "2024.xml";
   }
 }
 

@@ -121,3 +121,9 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .custom-select {
+    font-size: 12px;
+  }
+}
