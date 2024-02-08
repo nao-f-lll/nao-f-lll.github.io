@@ -103,3 +103,13 @@ textarea:valid ~ label {
 .info .input-group {
   flex-basis: 48%;
 }
+
+.error {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  color: red;
+}
+
+.error.active {
+  opacity: 1;
+}

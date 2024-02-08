@@ -24,25 +24,25 @@
     <section class="wrapper">
       <div class="form login">
         <header class="title">Inicio de Sesión</header>
-        <form class="login-form" action="#" method="GET">
+        <form class="login-form" action="#" onsubmit="return validateForm()">
           <input
-            type="email"
-            title=""
-            id="login-email"
+            type="text"
+            id="email"
             placeholder="Correo electrónico"
             required
             name="email"
-            pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/"
+            onchange="return validateEmail()"
           />
-
+          <span class="error" id="emailError"></span>
           <input
-            id="login-password"
-            title=""
+            id="password"
             type="password"
             name="password"
             placeholder="Contraseña"
             required
+            onchange="return validatePassword()"
           />
+          <span class="error" id="passwordError"></span>
           <a class="password-reset" href="#">¿Has olvidado tu contraseña?</a>
           <input type="submit" value="Login" />
         </form>
@@ -53,7 +53,6 @@
         <form class="sign-up-form" action="#">
           <input
             id="sign-up-name"
-            title=""
             type="text"
             placeholder="Nombre completo"
             required
@@ -62,7 +61,6 @@
 
           <input
             id="sign-up-email"
-            title=""
             type="text"
             name="email"
             placeholder="Correo electrónico"
@@ -70,7 +68,6 @@
           />
           <input
             id="sign-up-password"
-            title=""
             type="password"
             name="password"
             placeholder="Contraseña"
@@ -97,8 +94,8 @@
           wrapper.classList.remove("active");
         });
       </script>
+      <script src="scripts/loginSignUpFormValidation.js"></script>
     </section>
-    <script type="module" src="scripts/loginSignUpFormValedation.js"></script>
     <rugby-footer></rugby-footer>
     <script src="scripts/header.js"></script>
   </body>

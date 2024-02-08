@@ -179,3 +179,16 @@ form input[type="submit"] {
     max-width: 320px;
   }
 }
+
+.error {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  color: red;
+  width: 430px;
+  height: 10px;
+  background: transparent;
+}
+
+.error.active {
+  opacity: 1;
+}

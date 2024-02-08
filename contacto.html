@@ -48,48 +48,62 @@
           <p class="direction-text">New Zeland</p>
         </div>
       </div>
+
       <div class="form-conatiner">
-        <form action="">
+        <form action="" onsubmit="validateForm()">
           <div class="info">
             <div class="input-group">
-              <input type="text" id="name" required />
-              <label for="name">
-                <i class="fa-solid fa-user icon"></i>Nombre
-              </label>
+              <input
+                type="text"
+                id="name"
+                required
+                onchange="return validateName()"
+              />
+              <label for="name"
+                ><i class="fa-solid fa-user icon"></i>Nombre</label
+              >
+              <span class="error" id="nameError"></span>
             </div>
             <div class="input-group">
-              <input type="text" id="phone" required />
+              <input
+                type="text"
+                id="phone"
+                required
+                onchange="return validatePhone()"
+              />
               <label for="phone"
                 ><i class="fas fa-phone-square-alt icon"></i> Nº de
                 telefono</label
               >
+              <span class="error" id="phoneError"></span>
             </div>
           </div>
           <div class="input-group">
-            <input type="text" id="email" required />
-            <label for="email">
-              <i class="fas fa-envelope icon"></i>Email</label
-            >
+            <input
+              type="text"
+              id="email"
+              required
+              onchange="return validateEmail()"
+            />
+            <label for="email"><i class="fas fa-envelope icon"></i>Email</label>
+            <span class="error" id="emailError"></span>
           </div>
           <div class="input-group">
-            <select name="example">
-              <option value="a">
-                <i class="fa-solid fa-filter icon"></i>Subject
-              </option>
-              <option value="b">charity and donation</option>
-              <option value="c">Fan Feedback</option>
-              <option value="d">Ticketing</option>
+            <select id="subject" name="example" required>
+              <option value="">Elige un asunto</option>
+              <option value="b">Caridad y donación</option>
+              <option value="c">Opiniones de los fans</option>
+              <option value="d">Entradas</option>
+              <option value="g">Otros</option>
             </select>
-            <label for="email"></label>
+            <span class="error" id="subjectError"></span>
           </div>
-
           <div class="input-group">
             <textarea id="message" rows="8" required></textarea>
             <label for="message"
               ><i class="fas fa-comments icon"></i>Tu mensaje</label
             >
           </div>
-
           <button class="submit-button" type="submit">
             Submit <i class="fas fa-paper-plane icon"></i>
           </button>
@@ -98,6 +112,6 @@
     </main>
     <rugby-footer></rugby-footer>
     <script src="scripts/header.js"></script>
-    <script src="scripts/yearSelector.js"></script>
+    <script src="scripts/contactFormHandling.js"></script>
   </body>
 </html>

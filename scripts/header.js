@@ -20,22 +20,6 @@ document.addEventListener("click", function (event) {
   }
 });
 
-/*
-document.addEventListener("click", function (event) {
-  var searchButton = document.getElementById("search-button");
-  var searchInput = document.getElementById("search-input");
-  var searchIcon = document.getElementById("search-icon");
-  if (
-    !searchButton.contains(event.target) &&
-    !searchInput.contains(event.target) &&
-    !searchIcon.contains(event.target)
-  ) {
-    searchInput.style.display = "none";
-    searchButton.style.backgroundColor = "black";
-    searchIcon.style.backgroundColor = "black";
-  }
-});
-*/
 function toggleInputSearch() {
   var searchButton = document.getElementById("search-button");
   var searchInput = document.getElementById("search-input");
