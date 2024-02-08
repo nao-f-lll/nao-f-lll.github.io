@@ -53,7 +53,6 @@ function validatePassword() {
 function validateForm() {
   if (validateEmail() && validatePassword()) {
     alert("hola");
-    window.location.href = "/worldRugby/loginSignUpForm.html";
     return true;
   }
   return false;
