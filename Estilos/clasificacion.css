@@ -88,6 +88,18 @@ th {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1033px) {
+  .select-outer-container {
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .select-outer-container {
+    top: 130px;
+  }
+}
+
 @media (max-width: 804px) {
   .wrapper {
     font-size: 0.9rem;

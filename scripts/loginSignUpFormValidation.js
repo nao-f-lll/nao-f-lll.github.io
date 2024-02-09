@@ -50,9 +50,19 @@ function validatePassword() {
   return true;
 }
 
+var form = document.querySelector(".login-form");
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  validateForm();
+});
+
 function validateForm() {
   if (validateEmail() && validatePassword()) {
     alert("hola");
+    var emailInput = document.getElementById("email");
+    var passwordInput = document.getElementById("password");
+    emailInput.value = "";
+    passwordInput.value = "";
     return true;
   }
   return false;

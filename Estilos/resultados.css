@@ -234,3 +234,9 @@
     width: calc(100% - 90px);
   }
 }
+
+@media screen and (max-width: 748px) {
+  .select-outer-container {
+    top: 130px;
+  }
+}

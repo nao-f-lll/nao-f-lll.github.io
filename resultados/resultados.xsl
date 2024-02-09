@@ -47,6 +47,9 @@
           <option onclick="location.href='2024.xml'" value="2024">
             2024
           </option>
+          <option onclick="location.href='2025.xml'" value="2025">
+            2025
+          </option>
         </select>
         <div class="select-box-icon-container">
           <i class="fa-solid fa-caret-down"></i>

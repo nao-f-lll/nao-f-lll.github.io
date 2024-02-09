@@ -69,13 +69,13 @@ class HeaderComponent extends HTMLElement {
             </ul>
           </li>
           <li>
-            <a class="nav-element hiden-element-mobile resultados-link" href="/resultados.xml">
+            <a class="nav-element hiden-element-mobile resultados-link" href="/resultados/2024.xml">
               Resultados <span class="underline-secundario, resultados"></span>
             </a>
           </li>
           <li>
-            <a class="nav-element hiden-element-mobile" href="/clasificacion.xml">
-              Clasificación <span class="underline-secundario"></span>
+            <a class="nav-element hiden-element-mobile " href="/clasificacion/2024.xml">
+              Clasificación <span class="underline-secundario clasification"></span>
             </a>
           </li>
           <li>
@@ -151,6 +151,10 @@ class HeaderComponent extends HTMLElement {
 
     var resultsFolder = "/resultados/";
 
+    var teamsFolder = "/equipos/";
+
+    var standingsFolder = "/clasificacion/";
+
     if (currentPageUrl.includes(targetFolder)) {
       const paginaPrincipalAntigua = this.querySelector(".underline-principal");
       paginaPrincipalAntigua.classList.remove("underline-principal");
@@ -166,18 +170,21 @@ class HeaderComponent extends HTMLElement {
       const paginaSecundaria = this.querySelector(".resultados");
       paginaSecundaria.classList.remove("underline-secundario");
       paginaSecundaria.classList.add("underline-principal");
-    } else {
+    } else if (currentPageUrl.includes(teamsFolder)) {
       const paginaPrincipalAntigua = this.querySelector(".underline-principal");
-      const paginasSecundarias = this.querySelector(".teams-page");
       paginaPrincipalAntigua.classList.remove("underline-principal");
       paginaPrincipalAntigua.classList.add("underline-secundario");
-
-      paginasSecundarias.classList.remove("underline-secundario");
-      paginasSecundarias.classList.add("underline-principal");
+      const paginaSecundaria = this.querySelector(".teams-page");
+      paginaSecundaria.classList.remove("underline-secundario");
+      paginaSecundaria.classList.add("underline-principal");
+    } else if (currentPageUrl.includes(standingsFolder)) {
+      const paginaPrincipalAntigua = this.querySelector(".underline-principal");
+      paginaPrincipalAntigua.classList.remove("underline-principal");
+      paginaPrincipalAntigua.classList.add("underline-secundario");
+      const paginaSecundaria = this.querySelector(".clasification");
+      paginaSecundaria.classList.remove("underline-secundario");
+      paginaSecundaria.classList.add("underline-principal");
     }
-
-    var resultadoLink = document.querySelector(".resultados-link");
-    resultadoLink.href = "2024.xml";
   }
 }
 
