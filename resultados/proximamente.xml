@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="resultados.xsl" type="text/xsl"?>
+<resultados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resultados.xsd">
+
+<jornada id="1">
+<orden> UNO  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="2">
+<orden> DOS  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="3">
+<orden> TRES  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="4">
+<orden> CUATRO  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="5">
+<orden> CINCO  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="6">
+<orden> SIES  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="7">
+<orden> SIETE  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="8">
+<orden> OCHO  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="9">
+<orden> NUEVE  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="10">
+<orden> DIEZ  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+  <image>../media/Imagenes/logos/desconocido.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image><image>../media/Imagenes/logos/desconocido.png</image></image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+</resultados>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:variable name="temporadasDoc" select="document('../clasificacion/temporadas.xml')"/>
 <xsl:template match="/resultados">
 <html lang="en">
   <head>
@@ -38,18 +40,28 @@
       <div class="select-container">
         <select class="select-box" name="selectBox" id="selectBox">
           <option >Elige una temporada</option>
-          <option
-            onclick="location.href='2023.xml'"
-            value="2023"
-          >
-            2023
-          </option>
-          <option onclick="location.href='2024.xml'" value="2024">
-            2024
-          </option>
-          <option onclick="location.href='2025.xml'" value="2025">
-            2025
-          </option>
+         
+
+          <xsl:for-each select="$temporadasDoc/temporadas/temporada">
+         
+          <xsl:variable name="año" select="normalize-space(año)"/>
+          <xsl:variable name="estado" select="normalize-space(estado)"/>
+        
+          <xsl:choose>
+            <xsl:when test="$estado = 'proximamente'">
+              <option onclick="window.location='proximamente.xml'" value="proximamente">
+                <xsl:value-of select="$año"/>
+              </option>
+            </xsl:when>
+            <xsl:otherwise>
+              <option onclick="window.location='{normalize-space($año)}.xml'" value="{normalize-space($año)}">
+                <xsl:value-of select="$año"/>
+              </option>
+            </xsl:otherwise>
+          </xsl:choose>
+
+         </xsl:for-each>
+          
         </select>
         <div class="select-box-icon-container">
           <i class="fa-solid fa-caret-down"></i>

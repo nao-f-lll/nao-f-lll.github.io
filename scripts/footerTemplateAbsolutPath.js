@@ -24,7 +24,7 @@ class FooterComponent extends HTMLElement {
           <li class="footer-list-element">
             <span class="entity-element">&#x2022;</span>
           </li>
-          <li class="footer-list-element"><a href="contacto.html">CONTACTO</a></li>
+          <li class="footer-list-element"><a href="/contacto.html">CONTACTO</a></li>
           <li class="footer-list-element">
             <span class="entity-element">&#x2022;</span>
           </li>

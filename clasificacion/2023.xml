@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="clasificacion.xsl" type="text/xsl"?>
 <clasificacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="clasificacion.xsd">
-
 <fila id="1">
  <posicion>1</posicion>
 <equipo>
@@ -75,4 +74,3 @@
 <puntos>500</puntos>
 </fila>
 </clasificacion>
-

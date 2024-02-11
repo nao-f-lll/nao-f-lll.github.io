@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="clasificacion.xsl" type="text/xsl"?>
+<temporadas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="temporadas.xsd">
+<temporada id="1">
+<año>2023</año>
+<estado>finalizada</estado>
+</temporada>
+<temporada id="2">
+<año>2024</año>
+<estado>finalizada</estado>
+</temporada>
+<temporada id="3">
+<año>2025</año>
+<estado>actual</estado>
+</temporada>
+<temporada id="4">
+<año>2026</año>
+<estado>proximamente</estado>
+</temporada>
+</temporadas>
