@@ -2,24 +2,29 @@ function validateName() {
   var nameInput = document.getElementById("name");
   var nameError = document.getElementById("nameError");
   nameError.textContent = "";
-  nameInput.style.border = "none";
-
+  nameInput.style.border = "solid 1px black";
   var nameRegex =
     /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/u;
   if (!nameRegex.test(nameInput.value)) {
     nameError.classList.add("active");
     nameInput.style.border = "solid 1px red";
-    nameError.textContent = "El nombre no debe contener números";
+    nameError.textContent = "El nombre debe contener solo texto";
     return false;
   }
   return true;
 }
 
-function validateEmail() {
-  var emailInput = document.getElementById("email");
-  var emailError = document.getElementById("emailError");
+function validateEmail(email) {
+  var emailInput = document.getElementById(email);
+  if (email === "email-login") {
+    var emailError = document.getElementById("email-login-error");
+    emailInput.style.border = "none";
+  } else {
+    var emailError = document.getElementById("email-sign-up-error");
+    emailInput.style.border = "solid 1px black";
+  }
+
   emailError.textContent = "";
-  emailInput.style.border = "none";
 
   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(emailInput.value)) {
@@ -31,12 +36,19 @@ function validateEmail() {
   return true;
 }
 
-function validatePassword() {
-  var passwordInput = document.getElementById("password");
-  var passwordError = document.getElementById("passwordError");
+function validatePassword(password) {
+  var passwordInput = document.getElementById(password);
+  if (password === "password-login") {
+    var passwordError = document.getElementById("password-login-error");
+    passwordInput.style.border = "none";
+  } else {
+    var passwordError = document.getElementById("password-sign-up-error");
+    passwordInput.style.border = "solid 1px black";
+  }
+
   passwordError.textContent = "";
   passwordError.style.marginBottom = "0px";
-  passwordInput.style.border = "none";
+  passwordError.style.paddingBottom = "0px";
 
   var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/;
   if (!passwordRegex.test(passwordInput.value)) {
@@ -45,22 +57,49 @@ function validatePassword() {
     passwordError.textContent =
       "La contraseña debe tener una mayúscula, un número y un carácter especial.";
     passwordError.style.marginBottom = "15px";
+    if (window.innerWidth <= 360 && password === "password-login") {
+      passwordError.style.paddingBottom = "40px";
+    }
     return false;
   }
   return true;
 }
 
-var form = document.querySelector(".login-form");
-form.addEventListener("submit", function (e) {
+var loginForm = document.querySelector(".login-form");
+loginForm.addEventListener("submit", function (e) {
   e.preventDefault();
-  validateForm();
+  validateLoginForm("email-login", "password-login");
 });
 
-function validateForm() {
-  if (validateEmail() && validatePassword()) {
-    alert("hola");
-    var emailInput = document.getElementById("email");
-    var passwordInput = document.getElementById("password");
+function validateLoginForm(email, password) {
+  if (validateEmail(email) && validatePassword(password)) {
+    var user = document.querySelector(".sign-in-button");
+    var emailInput = document.getElementById(email);
+    var passwordInput = document.getElementById(password);
+    user.textContent = emailInput.value;
+    emailInput.value = "";
+    passwordInput.value = "";
+    return true;
+  }
+  return false;
+}
+
+let signUpForm = document.querySelector(".sign-up-form");
+signUpForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  validateSignUpForm("name", "email-sign-up", "password-sign-up");
+});
+
+function validateSignUpForm(name, email, password) {
+  if (
+    validateName(name) &&
+    validateEmail(email) &&
+    validatePassword(password)
+  ) {
+    let nameInput = document.getElementById(name);
+    var emailInput = document.getElementById(email);
+    var passwordInput = document.getElementById(password);
+    nameInput.value = "";
     emailInput.value = "";
     passwordInput.value = "";
     return true;

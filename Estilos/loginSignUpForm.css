@@ -36,7 +36,7 @@
 }
 
 .wrapper.active {
-  height: 550px;
+  height: 620px;
 }
 .wrapper.active .sign-up {
   bottom: -15%;
@@ -163,8 +163,13 @@ form input[type="submit"] {
     max-width: 370px;
   }
 
+  #password-sign-up-error,
+  #password-login-error {
+    width: 350px;
+  }
+
   .wrapper.active {
-    height: 580px;
+    height: 645px;
   }
 }
 
@@ -172,23 +177,41 @@ form input[type="submit"] {
   .wrapper {
     max-width: 350px;
   }
+  #password-sign-up-error,
+  #password-login-error {
+    width: 320px;
+  }
 }
 
 @media screen and (max-width: 360px) {
   .wrapper {
     max-width: 320px;
   }
+  #password-sign-up-error,
+  #password-login-error {
+    width: 280px;
+  }
 }
 
+.sign-up-error {
+  height: 1px;
+}
+
+.sign-up-error,
 .error {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
   color: red;
   width: 430px;
-  height: 10px;
+  padding-top: 0px;
   background: transparent;
 }
 
-.error.active {
+.error {
+  height: 10px;
+}
+
+.error.active,
+.sign-up-error.active {
   opacity: 1;
 }

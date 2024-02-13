@@ -27,22 +27,22 @@
         <form class="login-form">
           <input
             type="text"
-            id="email"
+            id="email-login"
             placeholder="Correo electrónico"
             required
             name="email"
-            onchange="return validateEmail()"
+            onchange="return validateEmail('email-login')"
           />
-          <span class="error" id="emailError"></span>
+          <span class="error" id="email-login-error"></span>
           <input
-            id="password"
+            id="password-login"
             type="password"
             name="password"
             placeholder="Contraseña"
             required
-            onchange="return validatePassword()"
+            onchange="return validatePassword('password-login')"
           />
-          <span class="error" id="passwordError"></span>
+          <span class="error" id="password-login-error"></span>
           <a class="password-reset" href="#">¿Has olvidado tu contraseña?</a>
           <input type="submit" value="Login" />
         </form>
@@ -50,29 +50,35 @@
 
       <div class="form sign-up">
         <header class="title">Registrarse</header>
-        <form class="sign-up-form" action="#">
+        <form class="sign-up-form">
+          <span class="sign-up-error" id="nameError"></span>
           <input
-            id="sign-up-name"
+            id="name"
             type="text"
             placeholder="Nombre completo"
             required
-            name="name"
+            name="full-name"
+            onchange="return validateName()"
           />
-
+          <span class="sign-up-error" id="email-sign-up-error"></span>
           <input
-            id="sign-up-email"
+            id="email-sign-up"
             type="text"
             name="email"
             placeholder="Correo electrónico"
             required
+            onchange="return validateEmail('email-sign-up')"
           />
+          <span class="sign-up-error" id="password-sign-up-error"></span>
           <input
-            id="sign-up-password"
+            id="password-sign-up"
             type="password"
             name="password"
             placeholder="Contraseña"
             required
+            onchange="return validatePassword('password-sign-up')"
           />
+
           <div class="checkbox">
             <input type="checkbox" id="signupCheck" />
             <label class="signup-check" for="signupCheck"

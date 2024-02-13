@@ -47,8 +47,41 @@ function validateEmail() {
   return true;
 }
 
+function validateSubject() {
+  let subject = document.getElementById("subject");
+  let subjectError = document.getElementById("subjectError");
+  let selectedValue = subject.value;
+  subjectError.textContent = "";
+  if (selectedValue === "a") {
+    subjectError.classList.add("active");
+    subjectError.textContent = "Hay que elegir un asunto";
+    return false;
+  }
+  subject.selectedIndex = 0;
+  return true;
+}
+
+var loginForm = document.querySelector(".contact-form");
+loginForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  validateForm();
+});
+
 function validateForm() {
-  if (validateName() && validatePhone() && validateEmail()) {
-    /// do something
+  if (
+    validateName() &&
+    validatePhone() &&
+    validateEmail() &&
+    validateSubject()
+  ) {
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var message = document.getElementById("message");
+    let phone = document.getElementById("phone");
+
+    name.value = "";
+    email.value = "";
+    message.value = "";
+    phone.value = "";
   }
 }
