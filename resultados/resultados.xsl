@@ -12,12 +12,12 @@
       type="image/x-icon"
       href="../media/Imagenes/logos/favicon.ico"
     />
-    <link rel="stylesheet" href="../Estilos/general.css" />
-    <link rel="stylesheet" href="../Estilos/header.css" />
-    <link rel="stylesheet" href="../Estilos/headerMediaQuery.css" />
-    <link rel="stylesheet" href="../Estilos/footer.css" />
-    <link rel="stylesheet" href="../Estilos/footerMediaQuery.css" />
-    <link rel="stylesheet" href="../Estilos/resultados.css" />
+    <link rel="stylesheet" href="../estilos/general.css" />
+    <link rel="stylesheet" href="../estilos/header.css" />
+    <link rel="stylesheet" href="../estilos/headerMediaQuery.css" />
+    <link rel="stylesheet" href="../estilos/footer.css" />
+    <link rel="stylesheet" href="../estilos/footerMediaQuery.css" />
+    <link rel="stylesheet" href="../estilos/resultados.css" />
     <script type="module" src="../scripts/headerTemplateAbsolutePath.js"></script>
     <script type="module" src="../scripts/footerTemplateAbsolutPath.js"></script>
     <script

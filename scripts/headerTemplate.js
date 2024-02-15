@@ -30,7 +30,7 @@ class HeaderComponent extends HTMLElement {
               ></a>
             </li>
             <li>
-              <a class="nav-element" href="noticias.html">
+              <a class="nav-element" href="noticias/section/noticias.html">
                 Noticias
                 <span class="underline-secundario"></span
               ></a>
