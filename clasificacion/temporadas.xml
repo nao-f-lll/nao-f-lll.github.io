@@ -6,15 +6,7 @@
 <estado>finalizada</estado>
 </temporada>
 <temporada id="2">
-<año>2024</año>
-<estado>finalizada</estado>
-</temporada>
-<temporada id="3">
-<año>2025</año>
-<estado>actual</estado>
-</temporada>
-<temporada id="4">
-<año>2026</año>
-<estado>proximamente</estado>
-</temporada>
+  <año>2024</año>
+  <estado>proximamente</estado>
+  </temporada>
 </temporadas>

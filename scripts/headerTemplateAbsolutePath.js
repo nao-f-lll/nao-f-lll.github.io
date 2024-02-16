@@ -122,7 +122,7 @@ class HeaderComponent extends HTMLElement {
             <a href="#" onclick="selectLanguage('Español')">Español </a>
           </div>
         </div>
-        <a href="/loginSignUpForm.html"
+        <a href="/login-sign-up-form.html"
             ><button class="sign-in-button">Iniciar Sesion</button></a
           >
       </div>

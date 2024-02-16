@@ -3,7 +3,7 @@
 <resultados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resultados.xsd">
 
 <jornada id="1">
-<orden> UNO  </orden>
+<orden> Uno  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
@@ -60,7 +60,7 @@
 </partido>
 </jornada>
 <jornada id="2">
-<orden> DOS  </orden>
+<orden> Dos  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
@@ -117,7 +117,7 @@
 </partido>
 </jornada>
 <jornada id="3">
-<orden> TRES  </orden>
+<orden> Tres  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
@@ -174,7 +174,7 @@
 </partido>
 </jornada>
 <jornada id="4">
-<orden> CUATRO  </orden>
+<orden> Cuatro  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
@@ -231,7 +231,7 @@
 </partido>
 </jornada>
 <jornada id="5">
-<orden> CINCO  </orden>
+<orden> Cinco  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
@@ -288,7 +288,7 @@
 </partido>
 </jornada>
 <jornada id="6">
-<orden> SIES  </orden>
+<orden> Seis  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
@@ -345,7 +345,7 @@
 </partido>
 </jornada>
 <jornada id="7">
-<orden> SIETE  </orden>
+<orden>  Siete  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
@@ -402,7 +402,7 @@
 </partido>
 </jornada>
 <jornada id="8">
-<orden> OCHO  </orden>
+<orden> Ocho  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
@@ -459,7 +459,7 @@
 </partido>
 </jornada>
 <jornada id="9">
-<orden> NUEVE  </orden>
+<orden> Nueve  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
@@ -516,7 +516,7 @@
 </partido>
 </jornada>
 <jornada id="10">
-<orden> DIEZ  </orden>
+<orden> Diez  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
