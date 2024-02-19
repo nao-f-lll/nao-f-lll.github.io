@@ -235,8 +235,35 @@
   }
 }
 
+@media screen and (max-width: 1034px) {
+  .select-outer-container {
+    top: 190px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .select-outer-container {
+    top: 150px;
+  }
+}
+
 @media screen and (max-width: 748px) {
   .select-outer-container {
-    top: 130px;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .select-outer-container {
+    top: 120px;
+    padding: 0;
+    width: 210px;
+  }
+  .select-container select {
+    font-size: 15px;
+  }
+
+  .select-box-icon-container i {
+    font-size: 20px;
   }
 }
