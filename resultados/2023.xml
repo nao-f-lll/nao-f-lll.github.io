@@ -3,19 +3,19 @@
 <resultados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resultados.xsd">
 
 <jornada id="1">
-<orden> UNO  </orden>
+<orden> Uno  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>85</puntos>
+<puntos>2</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>46</puntos>
+<puntos>2</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -27,13 +27,13 @@
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>81</puntos>
+<puntos>3</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>19</puntos>
+<puntos>0</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -45,13 +45,13 @@
 <logo>
 <image>../media/Imagenes/logos/sakuras-logo.png</image>
 </logo>
-<puntos>82</puntos>
+<puntos>4</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/red_rose_logo.png</image>
 </logo>
-<puntos>31</puntos>
+<puntos>1</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -60,19 +60,19 @@
 </partido>
 </jornada>
 <jornada id="2">
-<orden> DOS  </orden>
+<orden> Dos  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>89</puntos>
+<puntos>2</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>43</puntos>
+<puntos>3</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -84,13 +84,13 @@
 <logo>
 <image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>77</puntos>
+<puntos>2</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/red_rose_logo.png</image>
 </logo>
-<puntos>23</puntos>
+<puntos>1</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -102,13 +102,13 @@
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>37</puntos>
+<puntos>2</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/sakuras-logo.png</image>
 </logo>
-<puntos>66</puntos>
+<puntos>2</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -117,19 +117,19 @@
 </partido>
 </jornada>
 <jornada id="3">
-<orden> TRES  </orden>
+<orden> Tres  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>27</puntos>
+<puntos>3</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/red_rose_logo.png</image>
 </logo>
-<puntos>21</puntos>
+<puntos>1</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -141,13 +141,13 @@
 <logo>
 <image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>33</puntos>
+<puntos>4</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/sakuras-logo.png</image>
 </logo>
-<puntos>11</puntos>
+<puntos>2</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -159,7 +159,235 @@
 <logo>
 <image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>16</puntos>
+<puntos>2</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos>2</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="4">
+<orden> Cuatro  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos>5</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/sakuras-logo.png</image>
+</logo>
+<puntos>4</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/red_rose_logo.png</image>
+</logo>
+<puntos>2</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="5">
+<orden> Cinco  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/sakuras-logo.png</image>
+</logo>
+<puntos>2</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos>4</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/red_rose_logo.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos>1</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="6">
+<orden> Seis  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos>7</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos>7</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos>2</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/red_rose_logo.png</image>
+</logo>
+<puntos>1</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/sakuras-logo.png</image>
+</logo>
+<puntos>2</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="7">
+<orden> Siete  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos>1</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/red_rose_logo.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/sakuras-logo.png</image>
+</logo>
+<puntos>0</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
@@ -173,248 +401,20 @@
 <ciudad>&#x20;Paris</ciudad>
 </partido>
 </jornada>
-<jornada id="4">
-<orden> CUATRO  </orden>
-<partido id="1">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
-</logo>
-<puntos>51</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
-</logo>
-<puntos>46</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="2">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
-</logo>
-<puntos>52</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
-</logo>
-<puntos>80</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="3">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
-</logo>
-<puntos>71</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
-</logo>
-<puntos>41</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-</jornada>
-<jornada id="5">
-<orden> CINCO  </orden>
-<partido id="1">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
-</logo>
-<puntos>29</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
-</logo>
-<puntos>97</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="2">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
-</logo>
-<puntos>91</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
-</logo>
-<puntos>76</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="3">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
-</logo>
-<puntos>9</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
-</logo>
-<puntos>45</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-</jornada>
-<jornada id="6">
-<orden> SIES  </orden>
-<partido id="1">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
-</logo>
-<puntos>10</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
-</logo>
-<puntos>24</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="2">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
-</logo>
-<puntos>16</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
-</logo>
-<puntos>33</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="3">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
-</logo>
-<puntos>96</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
-</logo>
-<puntos>51</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-</jornada>
-<jornada id="7">
-<orden> SIETE  </orden>
-<partido id="1">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
-</logo>
-<puntos>7</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
-</logo>
-<puntos>35</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="2">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
-</logo>
-<puntos>60</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
-</logo>
-<puntos>53</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="3">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
-</logo>
-<puntos>80</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
-</logo>
-<puntos>52</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-</jornada>
 <jornada id="8">
-<orden> OCHO  </orden>
+<orden> Ocho  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
 <image>../media/Imagenes/logos/red_rose_logo.png</image>
 </logo>
-<puntos>11</puntos>
+<puntos>1</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>78</puntos>
+<puntos>2</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -426,13 +426,13 @@
 <logo>
 <image>../media/Imagenes/logos/sakuras-logo.png</image>
 </logo>
-<puntos>59</puntos>
+<puntos>2</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>92</puntos>
+<puntos>3</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -444,13 +444,13 @@
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>92</puntos>
+<puntos>3</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>69</puntos>
+<puntos>2</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -459,13 +459,70 @@
 </partido>
 </jornada>
 <jornada id="9">
-<orden> NUEVE  </orden>
+<orden> Nueve  </orden>
 <partido id="1">
 <equipo_local>
 <logo>
 <image>../media/Imagenes/logos/sakuras-logo.png</image>
 </logo>
-<puntos>84</puntos>
+<puntos>2</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos>3</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos>2</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/red_rose_logo.png</image>
+</logo>
+<puntos>0</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos>2</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos>4</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="10">
+<orden> Diez  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos>2</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
@@ -481,72 +538,15 @@
 <partido id="2">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
-</logo>
-<puntos>70</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
-</logo>
-<puntos>10</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="3">
-<equipo_local>
-<logo>
 <image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>17</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
-</logo>
-<puntos>26</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-</jornada>
-<jornada id="10">
-<orden> DIEZ  </orden>
-<partido id="1">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
-</logo>
-<puntos>0</puntos>
-</equipo_local>
-<equipo_visitante>
-<logo>
-<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
-</logo>
-<puntos>16</puntos>
-</equipo_visitante>
-<fecha> LUN 28 OCT </fecha>
-<hora>21:00</hora>
-<estadio>Stade de France</estadio>
-<ciudad>&#x20;Paris</ciudad>
-</partido>
-<partido id="2">
-<equipo_local>
-<logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
-</logo>
-<puntos>95</puntos>
+<puntos>2</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/sakuras-logo.png</image>
 </logo>
-<puntos>95</puntos>
+<puntos>2</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -558,13 +558,13 @@
 <logo>
 <image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>79</puntos>
+<puntos>2</puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/red_rose_logo.png</image>
 </logo>
-<puntos>89</puntos>
+<puntos>3</puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
