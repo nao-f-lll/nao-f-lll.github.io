@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="resultados.xsl" type="text/xsl"?>
+<resultados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resultados.xsd">
+
+<jornada id="1">
+<orden> Uno  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos>1</puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos>1</puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="2">
+<orden> Dos  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="3">
+<orden> Tres  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="4">
+<orden> Cuatro  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="5">
+<orden> Cinco  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="6">
+<orden> Seis  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="7">
+<orden> Siete  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="8">
+<orden> Ocho  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="9">
+<orden> Nueve  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+<jornada id="10">
+<orden> Diez  </orden>
+<partido id="1">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="2">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+<partido id="3">
+<equipo_local>
+<logo>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_local>
+<equipo_visitante>
+<logo>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
+</logo>
+<puntos> ? </puntos>
+</equipo_visitante>
+<fecha> LUN 28 OCT </fecha>
+<hora>21:00</hora>
+<estadio>Stade de France</estadio>
+<ciudad>&#x20;Paris</ciudad>
+</partido>
+</jornada>
+</resultados>
+

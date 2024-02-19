@@ -101,14 +101,14 @@ class HeaderComponent extends HTMLElement {
               </ul>
             </li>
             <li>
-              <a class="nav-element hiden-element-mobile resultados-link" href="resultados/2024.xml"
+              <a class="nav-element hiden-element-mobile resultados-link" href="resultados/proximamente.xml"
                 >Resultados <span class="underline-secundario"></span>
               </a>
             </li>
             <li>
               <a
                 class="nav-element hiden-element-mobile"
-                href="clasificacion/2024.xml"
+                href="clasificacion/proximamente.xml"
               >
                 Clasificación <span class="underline-secundario"></span>
               </a>
