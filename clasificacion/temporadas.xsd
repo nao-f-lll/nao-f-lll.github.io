@@ -5,7 +5,7 @@
         <xs:element name="temporada" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element type="xs:integer" name="año"/>
+              <xs:element type="xs:integer" name="year"/>
               <xs:element type="xs:string" name="estado"/>
             </xs:sequence>
             <xs:attribute type="xs:integer" name="id" use="required"/>
