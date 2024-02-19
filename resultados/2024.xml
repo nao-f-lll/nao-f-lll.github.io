@@ -9,13 +9,13 @@
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -27,13 +27,13 @@
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>0</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -43,15 +43,15 @@
 <partido id="3">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>4</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>1</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -66,13 +66,13 @@
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -82,15 +82,15 @@
 <partido id="2">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>1</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -102,13 +102,13 @@
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -123,13 +123,13 @@
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>1</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -139,15 +139,15 @@
 <partido id="2">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>4</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -157,15 +157,15 @@
 <partido id="3">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -180,13 +180,13 @@
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>5</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>4</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -196,15 +196,15 @@
 <partido id="2">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -214,15 +214,15 @@
 <partido id="3">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -237,13 +237,13 @@
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>0</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -253,15 +253,15 @@
 <partido id="2">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>4</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -271,15 +271,15 @@
 <partido id="3">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>1</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -292,15 +292,15 @@
 <partido id="1">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>7</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>7</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -310,15 +310,15 @@
 <partido id="2">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -328,15 +328,15 @@
 <partido id="3">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>1</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -349,15 +349,15 @@
 <partido id="1">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>1</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -367,15 +367,15 @@
 <partido id="2">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -385,15 +385,15 @@
 <partido id="3">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>0</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>4</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -406,15 +406,15 @@
 <partido id="1">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>1</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -424,15 +424,15 @@
 <partido id="2">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -444,13 +444,13 @@
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -463,15 +463,15 @@
 <partido id="1">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -483,13 +483,13 @@
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>0</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -499,15 +499,15 @@
 <partido id="3">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>4</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -522,13 +522,13 @@
 <logo>
 <image>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
 <image>../media/Imagenes/logos/all_blacks_badge_white.png</image>
 </logo>
-<puntos>1</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -538,15 +538,15 @@
 <partido id="2">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/wallabies-logo.png</image>
+<image>../media/Imagenes/logos/feathers_logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/sakuras-logo.png</image>
+<image>../media/Imagenes/logos/shamrock-logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>
@@ -556,15 +556,15 @@
 <partido id="3">
 <equipo_local>
 <logo>
-<image>../media/Imagenes/logos/shamrock-logo.png</image>
+<image>../media/Imagenes/logos/thistle_logo.png</image>
 </logo>
-<puntos>2</puntos>
+<puntos> ? </puntos>
 </equipo_local>
 <equipo_visitante>
 <logo>
-<image>../media/Imagenes/logos/red_rose_logo.png</image>
+<image>../media/Imagenes/logos/wallabies-logo.png</image>
 </logo>
-<puntos>3</puntos>
+<puntos> ? </puntos>
 </equipo_visitante>
 <fecha> LUN 28 OCT </fecha>
 <hora>21:00</hora>

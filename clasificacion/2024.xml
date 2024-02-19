@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="clasificacion.xsl" type="text/xsl"?>
+<clasificacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="clasificacion.xsd">
+
+<fila id="1">
+ <posicion>1</posicion>
+<equipo>
+<logo>../media/Imagenes/logos/all_blacks_badge_white.png</logo>
+<nombre>AllBlacks</nombre>
+</equipo>
+<partidos>0</partidos>
+<victorias>0</victorias>
+<derrotas>0</derrotas>
+<empates>0</empates>
+<puntos>0</puntos>
+</fila>
+<fila id="2">
+ <posicion>2</posicion>
+<equipo>
+<logo>../media/Imagenes/logos/south_Africa_national_rugby_union_team.png</logo>
+<nombre>Springboks</nombre>
+</equipo>
+<partidos>0</partidos>
+<victorias>0</victorias>
+<derrotas>0</derrotas>
+<empates>0</empates>
+<puntos>0</puntos>
+</fila>
+<fila id="3">
+ <posicion>3</posicion>
+<equipo>
+<logo>../media/Imagenes/logos/shamrock-logo.png</logo>
+<nombre>Shamrock</nombre>
+</equipo>
+<partidos>0</partidos>
+<victorias>0</victorias>
+<derrotas>0</derrotas>
+<empates>0</empates>
+<puntos>0</puntos>
+</fila>
+<fila id="4">
+ <posicion>4</posicion>
+<equipo>
+<logo>../media/Imagenes/logos/wallabies-logo.png</logo>
+<nombre>Wallabies</nombre>
+</equipo>
+<partidos>0</partidos>
+<victorias>0</victorias>
+<derrotas>0</derrotas>
+<empates>0</empates>
+<puntos>0</puntos>
+</fila>
+<fila id="5">
+ <posicion>5</posicion>
+<equipo>
+<logo>../media/Imagenes/logos/thistle_logo.png</logo>
+<nombre>Thistle</nombre>
+</equipo>
+<partidos>0</partidos>
+<victorias>0</victorias>
+<derrotas>0</derrotas>
+<empates>0</empates>
+<puntos>0</puntos>
+</fila>
+<fila id="6">
+ <posicion>6</posicion>
+<equipo>
+<logo>../media/Imagenes/logos/feathers_logo.png</logo>
+<nombre>Feathers</nombre>
+</equipo>
+<partidos>0</partidos>
+<victorias>0</victorias>
+<derrotas>0</derrotas>
+<empates>0</empates>
+<puntos>0</puntos>
+</fila>
+</clasificacion>
+

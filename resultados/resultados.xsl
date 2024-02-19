@@ -44,18 +44,18 @@
 
           <xsl:for-each select="$temporadasDoc/temporadas/temporada">
          
-          <xsl:variable name="año" select="normalize-space(año)"/>
+          <xsl:variable name="year" select="normalize-space(year)"/>
           <xsl:variable name="estado" select="normalize-space(estado)"/>
         
           <xsl:choose>
             <xsl:when test="$estado = 'proximamente'">
               <option onclick="window.location='proximamente.xml'" value="proximamente">
-                <xsl:value-of select="$año"/>
+                <xsl:value-of select="$year"/>
               </option>
             </xsl:when>
             <xsl:otherwise>
-              <option onclick="window.location='{normalize-space($año)}.xml'" value="{normalize-space($año)}">
-                <xsl:value-of select="$año"/>
+              <option onclick="window.location='{normalize-space($year)}.xml'" value="{normalize-space($year)}">
+                <xsl:value-of select="$year"/>
               </option>
             </xsl:otherwise>
           </xsl:choose>

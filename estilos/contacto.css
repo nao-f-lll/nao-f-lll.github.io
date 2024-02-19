@@ -132,8 +132,14 @@ textarea:valid ~ label {
   }
 }
 
+@media screen and (max-width: 392px) {
+  .main-conatiner {
+    width: calc(100% - 32px);
+  }
+}
+
 @media screen and (max-width: 362px) {
   .main-conatiner {
-    width: calc(100% - 30px);
+    width: calc(100% - 18px);
   }
 }
