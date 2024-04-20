@@ -54,8 +54,7 @@ function validatePassword(password) {
   if (!passwordRegex.test(passwordInput.value)) {
     passwordError.classList.add("active");
     passwordInput.style.border = "solid 1px red";
-    passwordError.textContent =
-      "La contraseña debe tener una mayúscula, un número y un carácter especial.";
+    passwordError.textContent = "La contraseña debe tener una mayúscula, un número y un carácter especial.";
     passwordError.style.marginBottom = "15px";
     if (window.innerWidth <= 360 && password === "password-login") {
       passwordError.style.paddingBottom = "40px";
